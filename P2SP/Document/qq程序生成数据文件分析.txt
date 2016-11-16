@@ -1,0 +1,470 @@
+QQ文件夹里每个文件解释大全（另末尾附送正版无损品质音乐刘欢名曲集）
+本帖最后由 mojunius 于 2012-11-18 16:12 编辑
+
+http://www.cnhonkerarmy.com/data/attachment/album/201210/29/09252369gso8st99cmzs6z.jpg
+提示一下：大家删除前无用文件一定要自己确认一下，知道了文件的含义，你也可以学会自己给QQ绿化下。
+
+在QQ的安装目录下以你的QQ号码为名字的文件夹里有几个关键文件，保存着你的QQ的一些信息，如果用好了它们，可以玩出一些有趣的花样，用来捉弄人也可以。
+
+　　MsgEx.db文件：是你正常登陆过QQ后生成的，如果删除该文件QQ就会无法正常登陆!不过，如果用其他QQ号码文件夹下的同名文件覆盖它，则可以正常登陆。 （这个是消息记录，要备份消息记录就是这个东东）
+
+　　ewh.db文件：同样是正常登陆后生成的文件，它用来管理密码。可以这样玩:如果删除该文件QQ或用其他QQ号码的同名文件取代它，无论怎样都会显示密码不正确。但是如果用注册向导来登陆，则可以修复密码正常登陆。
+
+　　notes.db文件:是QQ的备忘录管理文件，可以这样玩:将其他QQ号码文件下的notes.db文件复制到自己的QQ号码文件夹下，然后使用你的QQ登陆，之后就可以看到被复制的QQ的备忘录管理。
+
+　　User.db文件：是好友列表文件，可以这样玩：将其他QQ号码下的该文件复制到自己的QQ号码文件夹中，然后用的你的QQ正常登陆后，你的QQ好友就会消失，显示的是被复制的QQ的所有好友列表，可以看到对方的好友喽。要说明的是，复制后出现的好友名单，给他们发送消息的话，他们不会收到任何消息，因为他们只是一些镜像QQ好友，并非你真正的QQ好友。如果是用注册向导来登陆自己的QQ，则可以让自己的QQ好友名单再显示出来。
+
+　　QQAVFile文件夹:如果正常登陆过QQ，就会有该文件夹，没有它就表示该QQ号码在电脑上没有正常登陆过。 （这个是QQ形象文件）
+
+　　CustomFace文件夹：里面装着自定义表情。可以这样玩:熟悉操作系统的同志可以在这里对你的自定 义表情进行编辑和整理。（这个应该是很有用的）
+
+　　CustomFaceRecv文件夹：里面装着所有曾收到的自定义表情。可以这样玩:可以用图片浏览器直接打开查看。有时想把原来看到的图再找出来，到这个文件夹里一定能找到。
+
+
+下面是一些具体的，赫赫，还有其他的一些用法，那就需要各位自己发现了哦~~~
+
+
+qq的目录：
+ACodec.dll (音频聊天)
+AudioDevice.dll
++BQQApplication.dll (企业好友面板)
+*CameraDll.dll (截图文件)
+CapFilter.dll
+ChatLib.dll (聊天室相关文件)
+ContentTab.dll (自定义面板)
+Content_Config.ini (跟自定义面板有关)
+*CQQApplication.dll (好友面板)
+fsm.dll
+help_01.gif~help_13.gif (跟自定义面板有关)
+*ImageOle.dll
+InPlus.dll (视频语音聊天的设置对话框有关)
+iphone.dll
+*ipsearcher.dll (ip搜索插件)
+------ipwry.dat (新格式的ip库,2004-10-15纯真)我用了cnss的新ip库,提供下载的不
+
+是那个库.和dll文件,是原来的搜索文.
+MailDll.dll (以下mail开头的信箱有关)
+MailRes.dll
+*Mfc42.dll
++msvcp60.dll
++MUserApplication.dll
++MyIP.dat (自定义ip文件)
+NewSkin.dll (皮肤,使用默认皮肤的可以删除)
+OEMApplication.dll (内容资讯面板)
+parser.dll
+PersonalDesktop.dll
+QImage.dll
+*QQ.exe (qq主文件)
+*QQAllInOne.dll
+QQAvatar.dll (和qq秀有关)
+*QQBaseClassInDll.dll
+QQBUserApplication.dll (腾讯服务面板)
+QQexternal.exe (跟广告有关)
+QQFileTransfer.dll (文件传送)
+*QQHelperInDll.dll
+*QQHook.dll (监视键盘的文件)
+*QQLdr.exe (以下qqldr开头的和辅助软件有关)
+*qqldr.ini
+QQLdrCfg.exe
+*QQLdrDll.dll
+QQMail.exe (以下mail开头的和信箱有关)
+QQMailCore.dll
+QQMailHelper.dll
+*QQMainFrame.dll
++QQMMSender.dll (短信发送面板)
+*QQPlugin.dll (查找好友)
+*QQRes.dll (资源文件)
+QQUdpGetFileLib.dll (升级,QQ自动下载更新文件的模块)
+QQupdate.exe (同上)
+*QQZip.dll
+QRingMng.dll (炫玲管理)
+*riched20.dll
+*Riched32.dll
+ShareFiles.dll (共享文件夹)
++vbscript.dll (qq皮肤有关)
+VCodec.dll (以下几个和视频有关)
+VCodec1.dll
+VCodec2.dll
+VideoDevice.dll
+vphone.dll
+VqqAllInOne.dll
+VqqDVCapture.dll
+*vqqset.dll (视频设定文件,vqqset.dll 千万别删，否则第一次使用视频语音聊而出现设置对话
+
+框时，就会令QQ因错误退出！)
+(场景)
+(声音文件)
+(短信)
+(叫什么炫铃吧)
+* (QQ头像)我做了更新版的,具体改变大家自己体会吧.
+(帮助,别告诉我你不回用qq)
+(QQ邮箱)
+* (表情文件)
++ (一些引用的图片文件,视情况保留)
+(聊天室相关文件)
+(聊天室相关文件)
+(服务面板头像)
+
+
+以下是一定不可以删的文件：
+　　CameraDll.dll
+　　CQQApplication.dll
+　　ImageOle.dll
+　　IPSearcher.dll
+　　Mfc42.dll
+　　msvcp60.dll 其实也可以(各个系统兼容性决定)
+　　QQAllInOne.dll
+　　QQBaseClassInDll.dll
+　　QQHelperInDll.dll
+　　QQHook.dll 其实也可以(各个系统兼容性决定)
+　　QQMainFrame.dll
+　　QQPlugin.dll
+　　QQRes.dll
+　　QQZip.dll
+　　riched20.dll 其实也可以(各个系统兼容性决定)
+　　Riched32.dll 其实也可以(各个系统兼容性决定)
+　　vbscript.dll
+　　vqqset.dll
+
+　　如果不想视频聊天，只用语音聊天，删VCodec1.dll、VCodec2.dll、VCodec.dll、VideoDevice.dll
+
+、VqqDVCapture.dll、InPlus.dll(漏加了。不好意思。)。如果再删ACodec.dll、AudioDevice.dll、
+
+vphone.dll、VqqAllInOne.dll，则在两人世界里仍可语音聊，但在收发消息里就无法语音聊天了。
+
+
+其他大家想知道的信息.QQ号码文件夹下的文件.
+
+Config.db QQ 系统设置
+Content_Config.ini 自定义面板设置
+ewh.db QQ 密码
+MsgEx.db QQ 聊天记录
+notes.db QQ 备忘录
+QQMailSettingEx.dat QQMail 设置
+QQMailAddr.dat QQMail 地址本
+QQMailIndex.dat QQMail
+QRT.dat QQ 炫铃信息
+MailData QQMail 本地邮件
+ShareInfo.db 共享文件夹设置
+User.db QQ 本地好友列表
+VQQ.db QQ 视频设置
+
+下面为目录：
+QQAVFile 好友 QQ 秀缓存目录
+CustomFace QQ 自定义表情目录
+CustomFaceRecv 接收的 QQ 自定义表情保存目录
+
+
+
+
+
+
+QQHangReport.lnk 错误汇报执行文件的快捷方式
+QQIEHelper.dll ie插件,可单独删除
+QQLiveUpdate.exe 在线升级执行文件,可单独删除
+QQlog 临时文件,可单独删除
+QQMail.exe 信箱执行文件,这个删除.相关的都可以删除
+QQMailCore.dll 信箱,不可单独删除
+QQMailHelper.dll 信箱,不可单独删除
+QQNetDisk.dll 网络硬盘面板,可单独删除,建议同时删除相关
+QQSceneMng.dll 情景聊天文件.删除了就没有情景聊天了
+QQShowMagic.dll 魔法秀.删除的同时建议删除魔法秀贴图目录
+QQUpdate.db 临时文件
+rm.swf 动画,可单独删除
+SBuddyApplication.dll 互动空间,这几个同时存在或者删除
+SBuddyBase.dll 互动空间,这几个同时存在或者删除
+SBuddyCall.exe 互动空间,这几个同时存在或者删除
+SBuddyFriend.dll 互动空间,这几个同时存在或者删除
+SendMMS.htm 用QQ彩信发送该图片,删除了也会写入注册表.标准垃圾
+SetupInfo.ini 安装qq时的临时配置文件
+ShareFiles.dll 共享文件,没什么用处.可单独删除
+sm.swf 动画,可单独删除
+TIMPlatform.exe 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+TIMProxy.dll 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+Timwp.dll 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+Timwp.exe 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+TMShell.exe TM执行文件,不用tm可将相关同时删除
+uninst.exe 卸载程序
+whatsnew.txt 版本历史,想看就留着
+AutoLogin.dat 自动登陆文件.可单独删除.
+以上文件部分可以单独删除.但一些功能只删除相关几个文件可能导致不使用不正常.
+一些文件由于你点击了相关功能.加载了或者被调用了dll动态链接库.删除的时候需要关闭explorer.exe进程.重新运行这个进程然后删除就可以了.
+关于侧边栏交友中心.游戏面板图标不显示的原因:qq登陆的时候会从网络读取ico文件.读取成功则显示.同时面板可隐藏.读取失败则不显示.所有面板都不可隐藏.多登陆几次就可以了.网络读取成功以后会在qq目录AirDLIcon下产生ico文件和配置文件
+其他没有注明的部分目录会在第一次登陆qq时产生.产生的文件都可安全删除.比如QLoveFiles目录.log目录等
+
+文件夹里面的：
+ad.gif
+default_av_chatroom.gif
+infoad.gif
+vqqad.gif
+是广告贴图,可删除
+里面的rtx_enter.jpg
+rtx_friend.jpg
+RTXIndex.jpg
+是企业好友面板的贴图.可删除
+以安装原版qq以后目录下的文件为例进行分析.不分析视频音频.及其主要功能
+
+下面用 [ ] 括住的为目录：
+聊天室
+聊天室
+信箱表情符号,可以单独删除
+信箱面板贴图,删除了就只能看见字了.
+魔法秀图片,
+炫铃目录.不用可删除
+互动空间,和面板一起删除
+面板贴图文件,删除则部分区域无视觉效果,比如登陆窗口下面的按钮视觉效果.自定义表情管理面板上按钮的视觉效果.不建议删除.
+[***lls] tm主目录,不用tm可将相关同时删除
+tm头像,不用tm可将相关同时删除
+tm面板,不用tm可将相关同时删除
+tm声音,不用tm可将相关同时删除
+AddEmotion.htm 添加到QQ表情,删除了也会写入注册表.标准**
+AddPanel.htm 添加到QQ自定义面板,删除了也会写入注册表.标准**
+AddToNetDisk.htm 添加到QQ网络硬盘,删除了也会写入注册表.标准**
+AddrImportCSV.dll QQ信箱地址本,地址本相关同时删除,删除地址本不删除信箱相关功能不能正常使用
+AddrImportOutlook.dll QQ信箱地址本,地址本相关同时删除,删除地址本不删除信箱相关功能不能正常使用
+AddrImportVcf.dll QQ信箱地址本,地址本相关同时删除,删除地址本不删除信箱相关功能不能正常使用
+BQQApplication.dll 企业好友面板.可单独删除
+BugReport.exe 错误汇报执行文件,这个删除.相关的都可以删除
+ChatRoom.exe 聊天室执行程序,这个删除了所有相关都可以删除
+Content_Config.ini 自定义面板设置文件
+ContentTab.dll 自定义面板
+custom_help.htm 自定义面板收藏夹
+DShared.dll 远程协助,没了他就没法进行远程协助
+QQDiskShellMenu.dll 网络硬盘相关,和网络硬盘面板同时存在
+flog.dll 错误汇报
+help_01.gif 贴图,标准**
+help_02.gif 贴图,标准**
+help_03.gif 贴图,标准**
+help_04.gif 贴图,标准**
+help_05.gif 贴图,标准**
+help_10.gif 贴图,标准**
+help_11.gif 贴图,标准**
+help_13.gif 贴图,标准**
+HttpDownload.dll 发送/接收文件,没了他.就不能和好友收发文件
+license.txt 软件许可协议,想看就留着
+MagicBook.exe 魔法书.面板要是删除了.这个留着也没用了
+MagicFlash.exe 魔法表情,删除这个只是对方发表情不能观看.还是有提示的.
+MailDll.dll 信箱,不能单独删除
+MailRes.dll 信箱,不能单独删除
+OEMApplication.dll 音乐.手机.交友.游戏.内容咨询.5个面板.删除以后.按钮还在.点了没内容
+qdshm.dll 网络硬盘右键上传菜单,可单独删除.加载以后需关闭explorer.exe进程删除
+QQ.smp 安装产生的临时文件
+QQexternal.exe 广告,可单独删除
+QQHangReport.lnk 错误汇报执行文件的快捷方式
+QQIEHelper.dll ie插件,可单独删除
+QQLiveUpdate.exe 在线升级执行文件,可单独删除
+QQlog 临时文件,可单独删除
+QQMail.exe 信箱执行文件,这个删除.相关的都可以删除
+QQMailCore.dll 信箱,不可单独删除
+QQMailHelper.dll 信箱,不可单独删除
+QQNetDisk.dll 网络硬盘面板,可单独删除,建议同时删除相关
+QQSceneMng.dll 情景聊天文件.删除了就没有情景聊天了
+QQShowMagic.dll 魔法秀.删除的同时建议删除魔法秀贴图目录
+QQUpdate.db 临时文件
+rm.swf 动画,可单独删除
+SBuddyApplication.dll 互动空间,这几个同时存在或者删除
+SBuddyBase.dll 互动空间,这几个同时存在或者删除
+SBuddyCall.exe 互动空间,这几个同时存在或者删除
+SBuddyFriend.dll 互动空间,这几个同时存在或者删除
+SendMMS.htm 用QQ彩信发送该图片,删除了也会写入注册表.标准**
+SetupInfo.ini 安装qq时的临时配置文件
+ShareFiles.dll 共享文件,没什么用处.可单独删除
+sm.swf 动画,可单独删除
+TIMPlatform.exe 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+TIMProxy.dll 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+Timwp.dll 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+Timwp.exe 一键切换TM,临时对话.kip支持,4个文件同时存在或者删除
+TMShell.exe TM执行文件,不用tm可将相关同时删除
+uninst.exe 卸载程序
+whatsnew.txt 版本历史,想看就留着
+AutoLogin.dat 自动登陆文件.可单独删除.
+以上文件部分可以单独删除.但一些功能只删除相关几个文件可能导致不使用不正常.
+一些文件由于你点击了相关功能.加载了或者被调用了dll动态链接库.删除的时候需要关闭explorer.exe进程.重新运行这个进程然后删除就可以了.
+关于侧边栏交友中心.游戏面板图标不显示的原因:qq登陆的时候会从网络读取ico文件.读取成功则显示.同时面板可隐藏.读取失败则不显示.所有面板都不可隐藏.多登陆几次就可以了.网络读取成功以后会在qq目录AirDLIcon下产生ico文件和配置文件
+其他没有注明的部分目录会在第一次登陆qq时产生.产生的文件都可安全删除.比如QLoveFiles目录.log目录等
+
+【QQ集成功能限制方法】
+
+1:禁止使用 QQ 网络硬盘
+把QQ目录下的QQNetDisk.dll改名或者删除
+
+2:禁止使用 QQ 文件传送的方法:
+把QQ目录下的QQFileTransfer.dll改名或者删除
+(改名或者删除后 玩家起用此功能可能会引起QQ死机 如你的QQ不能正常使用的话 请还原)
+
+3:禁止使用 QQ 邮箱的方法:
+把QQ目录下的MailRes.dll改名或删除
+或把QQ目录下的QQMail.exe改名或者删除
+
+4:禁止使用 QQ 共享文件功能
+把QQ目录下的ShareFiles.dll改名或删除
+
+5:禁止使用 QQ 在线升级功能
+把QQ目录下的QQLiveUpdate.exe改名或删除
+
+6:禁止使用 TM 登陆
+把QQ目录下的TMShell.exe改名或删除
+
+【QQ的安全设定】
+QQ 邮箱 ： 删除QQMail.exe
+QQ共享文件：删除ShareFiles.dll
+去除群共享：删除QQGroupDisk.dll
+QQ网络硬盘：删除QQNetDisk.dll
+QQ传送文件：删除QQFileTransfer.dll
+QQ在线升级：删除QQLiveUpdate.exe
+《QQ目录下各文件用途不完全揭密》原出处：PConline 现部分已修改
+QUOTE:
+·QQ的安装目录下的文件及文件目录
+ACodec.dll (音频聊天)
++BQQApplication.dll (企业好友面板)
+*CameraDll.dll (截图文件)
+ChatLib.dll (聊天室相关文件)
+ContentTab.dll (自定义面板)
+Content_Config.ini (跟自定义面板有关)
+*CQQApplication.dll (好友面板)
+help_01.gif~help_13.gif (跟自定义面板有关)
+InPlus.dll (视频语音聊天的设置对话框有关)
+*ipsearcher.dll (ip搜索插件)
+——ipwry.dat 新格式的ip库,
+MailDll.dll (以下mail开头的信箱有关)
++MyIP.dat (自定义ip文件)
+NewSkin.dll (皮肤,使用默认皮肤的可以删除)
+OEMApplication.dll (内容资讯面板)
+*QQ.exe (qq主文件)
+QQAvatar.dll (和qq秀有关)
+QQBUserApplication.dll (腾讯服务面板)
+QQexternal.exe (跟广告有关)
+QQFileTransfer.dll (文件传送)
+*QQHook.dll (监视键盘的文件，旧版本有)
+*QQLdr.exe (以下qqldr开头的和辅助软件有关)
+QQMail.exe (以下mail开头的和信箱有关)
+QQMailCore.dll
+QQMailHelper.dll
++QQMMSender.dll (短信发送面板)
+*QQPlugin.dll (查找好友)
+*QQRes.dll (资源文件)
+QQUdpGetFileLib.dll (升级,QQ自动下载更新文件的模块)
+QQupdate.exe (同上)
+QRingMng.dll (炫玲管理)
+ShareFiles.dll (共享文件夹)
++vb.dll (qq皮肤有关)
+VCodec.dll (以下几个和视频有关)
+*vqqset.dll (视频设定文件,vqqset.dll 千万别删，否则第一次使用视频语音聊而出现设置对话框时，就会令QQ因错误退出!)
+(场景)
+(声音文件)
+(短信)
+(叫什么炫铃吧)
+* (QQ头像)
+(帮助,别告诉我你不回用qq)
+(QQ邮箱)
+* (表情文件)
++ (一些引用的图片文件,视情况保留)
+(聊天室相关文件)
+(聊天室相关文件)
+(服务面板头像)
+
+以下这些文件千万不能删:
+CameraDll.dll
+CQQApplication.dll
+ImageOle.dll
+IPSearcher.dll
+Mfc42.dll
+msvcp60.dll 其实也可以删除(各个系统兼容性决定)
+QQAllInOne.dll
+QQBaseClassInDll.dll
+QQHelperInDll.dll
+QQHook.dll 其实也可以删除(各个系统兼容性决定)
+QQMainFrame.dll
+QQPlugin.dll
+QQRes.dll
+QQZip.dll
+riched20.dll 其实也可以删除(各个系统兼容性决定)
+Riched32.dll 其实也可以删除(各个系统兼容性决定)
+vb.dll
+vqqset.dll
+如果不想视频聊天，只用语音聊天，删VCodec1.dll、VCodec2.dll、VCodec.dll、VideoDevice.dll、 VqqDVCapture.dll、InPlus.dll。如果再删ACodec.dll、AudioDevice.dll、vphone.dll、 VqqAllInOne.dll，则在两人世界里仍可语音聊，但在收发消息里就无法语音聊天了。
+QQ号码文件夹下的文件
+Config.db QQ系统设置
+Content_Config.ini 自定义面板设置
+ewh.db QQ密码
+MsgEx.db QQ聊天记录
+notes.db QQ备忘录
+QQMailSettingEx.dat QQMail 设置
+QQMailAddr.dat QQMail 地址本
+QQMailIndex.dat QQMail
+QRT.dat QQ炫铃信息
+MailData QQMail 本地邮件
+ShareInfo.db 共享文件夹设置
+User.db QQ本地好友列表
+VQQ.db QQ视频设置
+
+下面是号码文件夹下QQ程序的目录
+QQAVFile 好友QQ秀缓存目录
+CustomFace QQ自定义表情目录
+CustomFaceRecv 接收的 QQ自定义表情保存目录
+
+安装好QQ后的IE右键菜单:
+AddPanel.html——添加到QQ自定义面板
+AddEmotion.htm——添加到QQ表情
+SendMMS.htm——用QQ彩信发送该图片
+AddToNetDisk——添加到QQ网络硬盘
+
+QQ广告:
+QQexternal.exe
+里面的ad.gif、default_av_chatroom.gif、infoad.gif、vqqad.gif
+BugReport:
+BugReport.exe
+BugReport.smp
+QQHangReport.exe
+
+QQ邮箱（对普通用户来说太小了）
+
+MailDll.dll
+MailRes.dll
+QQMail.exe
+QQMailCore.dll
+QQMailHelper.dll
+rm.swf
+sm.swf
+
+QQ聊天室（我从来不去的）
+
+
+ChatLib.dll
+ChatRes.dll
+
+一键切换（就是QQ与TM的互换，如果你只用QQ，那应该没用了吧）
+QQOneClickApp.exe
+QQOneClick.dll
+
+接下来是定制QQ侧边面板了！！
+QQ好友: cqqapplication.dll（这个都删了…………）
+
+互动空间:
+(互动空间里面按钮的图标)
+SBuddyApplication.dll
+SBuddyCall.exe
+SBuddyFriend.dll
+
+企业好友:
+里面的rtx_enter.jpg、rtx_friend.jpg、RTXIndex.jpg
+bqqapplication.dll
+
+手机娱乐面板、内容资讯面板、音乐中心：
+oemapplication.dll（删除了它，直接搞定3个面板
+
+自定义面板：
+ConternTab.dll
+Content_Config.ini
+
+网络硬盘:
+qqnetdisk.dll
+（注：如果你有删除侧面板按钮，那么建议不要使用奥运版皮肤，否则按钮与按钮之间会有间隔，QQ2004面板没有问题，还可使用这个面板pixos）
+
+无用文件：
+custom_help.html
+help_01.gif、help_02.gif、help_03.gif、help_04.gif、help_05.gif、help_10.gif、help_11.gif、help_13.gif
+whatsnew.txt
+QQFileInfo.dat
+uninst.exe（我卸载QQ从来都是直接删除的，因为这个QQ是复制过来的）
+还有这两个文件：TIMPlatform.exe（此文件会随QQ自动启动）、TIMProxy.dll，我不知道有什么用，但我删了，未影响QQ的使用，你自己选吧！！

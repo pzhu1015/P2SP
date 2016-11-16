@@ -1,0 +1,16 @@
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\bin\Debug\Trans.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\bin\Debug\Trans.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\bin\Debug\Helper.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\bin\Debug\System.Data.SQLite.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\bin\Debug\Helper.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\obj\x86\Debug\Trans.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Trans\obj\x86\Debug\Trans.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Trans\bin\Debug\Trans.dll
+C:\Users\Administrator\Desktop\JobAndTask\Trans\bin\Debug\Trans.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Trans\bin\Debug\Helper.dll
+C:\Users\Administrator\Desktop\JobAndTask\Trans\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\JobAndTask\Trans\bin\Debug\Helper.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Trans\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JobAndTask\Trans\obj\x86\Debug\Trans.dll
+C:\Users\Administrator\Desktop\JobAndTask\Trans\obj\x86\Debug\Trans.pdb

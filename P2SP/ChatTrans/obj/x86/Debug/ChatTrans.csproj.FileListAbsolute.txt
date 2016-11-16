@@ -1,0 +1,34 @@
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\ChatTrans.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\ChatTrans.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Chat.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\SendFileService.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Trans.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Microsoft.DirectX.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Helper.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\System.Data.SQLite.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Microsoft.DirectX.DirectSound.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\AudioService.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Trans.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Helper.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\Chat.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\SendFileService.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\bin\Debug\AudioService.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\obj\x86\Debug\ChatTrans.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatTrans\obj\x86\Debug\ChatTrans.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\ChatTrans.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\ChatTrans.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\Chat.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\SendFileService.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\Trans.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\Helper.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\AudioService.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\Trans.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\Helper.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\Chat.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\SendFileService.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\bin\Debug\AudioService.pdb
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\obj\x86\Debug\ChatTrans.dll
+C:\Users\Administrator\Desktop\JobAndTask\ChatTrans\obj\x86\Debug\ChatTrans.pdb

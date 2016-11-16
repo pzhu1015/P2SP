@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLoad", "DownLoad\DownLoad.csproj", "{8F854BCE-5E49-4C62-851F-103BFE010FB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{189858F4-6538-4B8B-A22B-A9F197D2D75C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DownLoadService", "DownLoadService\DownLoadService.csproj", "{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendControl", "ExtendControl\ExtendControl.csproj", "{D94321AC-097C-4046-9F08-93B809B92818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatClientUI", "ChatClientUI\ChatClientUI.csproj", "{AA5397F7-A1C0-46E3-A8DF-82B480E5B31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatServerUI", "ChatServerUI\ChatServerUI.csproj", "{4DB671F1-0362-4DB7-B995-3A665F00C661}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "Chat\Chat.csproj", "{98EFF8D5-982C-4399-B346-CEAAA8114CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trans", "Trans\Trans.csproj", "{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatTrans", "ChatTrans\ChatTrans.csproj", "{27A4A778-EAD5-4973-9B37-E2E692041277}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resources", "Resources\Resources.csproj", "{875E6AF2-FC0F-43C0-8EAF-CC4C88EF3932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather", "Weather\Weather.csproj", "{4E2F1A2B-8D5B-4C37-A9EF-2ED11F21C402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioService", "AudioService\AudioService.csproj", "{1294AC07-A709-4EE8-9301-E033FCB6DF26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SendFileService", "SendFileService\SendFileService.csproj", "{ED9F82C6-77D5-48F0-A28E-E2177E3951E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2PService", "P2PService\P2PService.csproj", "{3AE05B80-8177-4E8C-A889-03C788D3A107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complents", "Complents\Complents.csproj", "{46253A9E-D116-48B7-8A5E-C3A010FE90EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JimoDbStudio", "JimoDbStudio\JimoDbStudio.csproj", "{D73FC0C6-5D6E-4CB1-9B4B-CBE2A971527B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F854BCE-5E49-4C62-851F-103BFE010FB8}.Debug|x86.ActiveCfg = Debug|x86
+		{8F854BCE-5E49-4C62-851F-103BFE010FB8}.Debug|x86.Build.0 = Debug|x86
+		{8F854BCE-5E49-4C62-851F-103BFE010FB8}.Release|x86.ActiveCfg = Release|x86
+		{8F854BCE-5E49-4C62-851F-103BFE010FB8}.Release|x86.Build.0 = Release|x86
+		{189858F4-6538-4B8B-A22B-A9F197D2D75C}.Debug|x86.ActiveCfg = Debug|x86
+		{189858F4-6538-4B8B-A22B-A9F197D2D75C}.Debug|x86.Build.0 = Debug|x86
+		{189858F4-6538-4B8B-A22B-A9F197D2D75C}.Release|x86.ActiveCfg = Release|x86
+		{189858F4-6538-4B8B-A22B-A9F197D2D75C}.Release|x86.Build.0 = Release|x86
+		{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}.Debug|x86.ActiveCfg = Debug|x86
+		{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}.Debug|x86.Build.0 = Debug|x86
+		{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}.Release|x86.ActiveCfg = Release|x86
+		{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}.Release|x86.Build.0 = Release|x86
+		{D94321AC-097C-4046-9F08-93B809B92818}.Debug|x86.ActiveCfg = Debug|x86
+		{D94321AC-097C-4046-9F08-93B809B92818}.Debug|x86.Build.0 = Debug|x86
+		{D94321AC-097C-4046-9F08-93B809B92818}.Release|x86.ActiveCfg = Release|x86
+		{D94321AC-097C-4046-9F08-93B809B92818}.Release|x86.Build.0 = Release|x86
+		{AA5397F7-A1C0-46E3-A8DF-82B480E5B31B}.Debug|x86.ActiveCfg = Debug|x86
+		{AA5397F7-A1C0-46E3-A8DF-82B480E5B31B}.Debug|x86.Build.0 = Debug|x86
+		{AA5397F7-A1C0-46E3-A8DF-82B480E5B31B}.Release|x86.ActiveCfg = Release|x86
+		{AA5397F7-A1C0-46E3-A8DF-82B480E5B31B}.Release|x86.Build.0 = Release|x86
+		{4DB671F1-0362-4DB7-B995-3A665F00C661}.Debug|x86.ActiveCfg = Debug|x86
+		{4DB671F1-0362-4DB7-B995-3A665F00C661}.Debug|x86.Build.0 = Debug|x86
+		{4DB671F1-0362-4DB7-B995-3A665F00C661}.Release|x86.ActiveCfg = Release|x86
+		{4DB671F1-0362-4DB7-B995-3A665F00C661}.Release|x86.Build.0 = Release|x86
+		{98EFF8D5-982C-4399-B346-CEAAA8114CA4}.Debug|x86.ActiveCfg = Debug|x86
+		{98EFF8D5-982C-4399-B346-CEAAA8114CA4}.Debug|x86.Build.0 = Debug|x86
+		{98EFF8D5-982C-4399-B346-CEAAA8114CA4}.Release|x86.ActiveCfg = Release|x86
+		{98EFF8D5-982C-4399-B346-CEAAA8114CA4}.Release|x86.Build.0 = Release|x86
+		{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}.Debug|x86.ActiveCfg = Debug|x86
+		{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}.Debug|x86.Build.0 = Debug|x86
+		{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}.Release|x86.ActiveCfg = Release|x86
+		{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}.Release|x86.Build.0 = Release|x86
+		{27A4A778-EAD5-4973-9B37-E2E692041277}.Debug|x86.ActiveCfg = Debug|x86
+		{27A4A778-EAD5-4973-9B37-E2E692041277}.Debug|x86.Build.0 = Debug|x86
+		{27A4A778-EAD5-4973-9B37-E2E692041277}.Release|x86.ActiveCfg = Release|x86
+		{27A4A778-EAD5-4973-9B37-E2E692041277}.Release|x86.Build.0 = Release|x86
+		{875E6AF2-FC0F-43C0-8EAF-CC4C88EF3932}.Debug|x86.ActiveCfg = Debug|x86
+		{875E6AF2-FC0F-43C0-8EAF-CC4C88EF3932}.Debug|x86.Build.0 = Debug|x86
+		{875E6AF2-FC0F-43C0-8EAF-CC4C88EF3932}.Release|x86.ActiveCfg = Release|x86
+		{875E6AF2-FC0F-43C0-8EAF-CC4C88EF3932}.Release|x86.Build.0 = Release|x86
+		{4E2F1A2B-8D5B-4C37-A9EF-2ED11F21C402}.Debug|x86.ActiveCfg = Debug|x86
+		{4E2F1A2B-8D5B-4C37-A9EF-2ED11F21C402}.Debug|x86.Build.0 = Debug|x86
+		{4E2F1A2B-8D5B-4C37-A9EF-2ED11F21C402}.Release|x86.ActiveCfg = Release|x86
+		{4E2F1A2B-8D5B-4C37-A9EF-2ED11F21C402}.Release|x86.Build.0 = Release|x86
+		{1294AC07-A709-4EE8-9301-E033FCB6DF26}.Debug|x86.ActiveCfg = Debug|x86
+		{1294AC07-A709-4EE8-9301-E033FCB6DF26}.Debug|x86.Build.0 = Debug|x86
+		{1294AC07-A709-4EE8-9301-E033FCB6DF26}.Release|x86.ActiveCfg = Release|x86
+		{1294AC07-A709-4EE8-9301-E033FCB6DF26}.Release|x86.Build.0 = Release|x86
+		{ED9F82C6-77D5-48F0-A28E-E2177E3951E1}.Debug|x86.ActiveCfg = Debug|x86
+		{ED9F82C6-77D5-48F0-A28E-E2177E3951E1}.Debug|x86.Build.0 = Debug|x86
+		{ED9F82C6-77D5-48F0-A28E-E2177E3951E1}.Release|x86.ActiveCfg = Release|x86
+		{ED9F82C6-77D5-48F0-A28E-E2177E3951E1}.Release|x86.Build.0 = Release|x86
+		{3AE05B80-8177-4E8C-A889-03C788D3A107}.Debug|x86.ActiveCfg = Debug|x86
+		{3AE05B80-8177-4E8C-A889-03C788D3A107}.Debug|x86.Build.0 = Debug|x86
+		{3AE05B80-8177-4E8C-A889-03C788D3A107}.Release|x86.ActiveCfg = Release|x86
+		{3AE05B80-8177-4E8C-A889-03C788D3A107}.Release|x86.Build.0 = Release|x86
+		{46253A9E-D116-48B7-8A5E-C3A010FE90EE}.Debug|x86.ActiveCfg = Debug|x86
+		{46253A9E-D116-48B7-8A5E-C3A010FE90EE}.Debug|x86.Build.0 = Debug|x86
+		{46253A9E-D116-48B7-8A5E-C3A010FE90EE}.Release|x86.ActiveCfg = Release|x86
+		{46253A9E-D116-48B7-8A5E-C3A010FE90EE}.Release|x86.Build.0 = Release|x86
+		{D73FC0C6-5D6E-4CB1-9B4B-CBE2A971527B}.Debug|x86.ActiveCfg = Debug|x86
+		{D73FC0C6-5D6E-4CB1-9B4B-CBE2A971527B}.Debug|x86.Build.0 = Debug|x86
+		{D73FC0C6-5D6E-4CB1-9B4B-CBE2A971527B}.Release|x86.ActiveCfg = Release|x86
+		{D73FC0C6-5D6E-4CB1-9B4B-CBE2A971527B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

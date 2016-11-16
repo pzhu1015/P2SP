@@ -1,0 +1,15 @@
+众所周知，UDP是无连接的，可是当实际现场使用时，如果远程主机异常关闭，服务器则会抛出一个异常：远程主机强行关闭了一个连接
+
+而一但这个异常抛出后，又没有及时处理，那么整个UDP服务都将崩溃而不能接收任何数据
+
+
+处理的方法是
+
+
+uint IOC_IN = 0x80000000;
+uint IOC_VENDOR = 0x18000000;
+uint SIO_UDP_CONNRESET = IOC_IN | IOC_VENDOR | 12;
+udp.Client.IOControl((int)SIO_UDP_CONNRESET, new byte[] {Convert.ToByte(false)}, null);
+
+
+即可解决

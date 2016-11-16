@@ -1,0 +1,26 @@
+
+********************* error *********************
+  DateTime : 2016/10/22 14:36:19
+  FileName : MainForm.cs
+LineNumber : 290
+  Error : System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.BeginInvoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.BeginInvoke(Delegate method)
+   在 ChatClientUI.MainForm.ConnectToServerCb(TcpClient tcpClient) 位置 C:\Users\pzh\Desktop\JobAndTask\ChatClientUI\MainForm.cs:行号 279
+
+********************* error *********************
+
+
+********************* error *********************
+  DateTime : 2016/10/22 14:36:30
+  FileName : MainForm.cs
+LineNumber : 290
+  Error : System.InvalidOperationException: 在创建窗口句柄之前，不能在控件上调用 Invoke 或 BeginInvoke。
+   在 System.Windows.Forms.Control.MarshaledInvoke(Control caller, Delegate method, Object[] args, Boolean synchronous)
+   在 System.Windows.Forms.Control.BeginInvoke(Delegate method, Object[] args)
+   在 System.Windows.Forms.Control.BeginInvoke(Delegate method)
+   在 ChatClientUI.MainForm.ConnectToServerCb(TcpClient tcpClient) 位置 C:\Users\pzh\Desktop\JobAndTask\ChatClientUI\MainForm.cs:行号 279
+
+********************* error *********************
+

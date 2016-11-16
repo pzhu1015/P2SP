@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8F854BCE-5E49-4C62-851F-103BFE010FB8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DownLoad</RootNamespace>
+    <AssemblyName>DownLoad</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\Administrator\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <ApplicationIcon>Icon\32位ICON\notify_32.ico</ApplicationIcon>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <BaseAddress>4194304</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>..\Helper\Dll\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MainIcon1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MainIcon.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UI\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ConfigForm.Designer.cs">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DeleteConfirmForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DeleteConfirmForm.Designer.cs">
+      <DependentUpon>DeleteConfirmForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\DownLoadForm.cs" />
+    <Compile Include="UI\DownLoadForm.Designer.cs">
+      <DependentUpon>DownLoadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewTaskForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewTaskForm.Designer.cs">
+      <DependentUpon>NewTaskForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\NewTaskInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\NewTaskInfoForm.Designer.cs">
+      <DependentUpon>NewTaskInfoForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="MainIcon.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>MainIcon1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ConfigForm.resx">
+      <DependentUpon>ConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DeleteConfirmForm.resx">
+      <DependentUpon>DeleteConfirmForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DownLoadForm.resx">
+      <DependentUpon>DownLoadForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewTaskForm.resx">
+      <DependentUpon>NewTaskForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\NewTaskInfoForm.resx">
+      <DependentUpon>NewTaskInfoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Icon\16位PNG\button_delete_16.png" />
+    <None Include="Icon\16位PNG\button_new_16.png" />
+    <None Include="Icon\16位PNG\button_open_16.png" />
+    <None Include="Icon\16位PNG\button_options_16.png" />
+    <None Include="Icon\16位PNG\button_start_16.png" />
+    <None Include="Icon\16位PNG\button_stop_16.png" />
+    <None Include="Icon\16位PNG\download_16.png" />
+    <None Include="Icon\16位PNG\Thumbs.db" />
+    <None Include="Icon\16位PNG\upload_16.png" />
+    <None Include="Icon\16位PNG\warning_16.png" />
+    <None Include="Icon\20位PNG\down.png" />
+    <None Include="Icon\20位PNG\Thumbs.db" />
+    <None Include="Icon\20位PNG\up.png" />
+    <None Include="Icon\32位ICON\notify_32.ico" />
+    <None Include="Icon\32位PNG\button_delete_32.png" />
+    <None Include="Icon\32位PNG\button_new_32.png" />
+    <None Include="Icon\32位PNG\button_open_32.png" />
+    <None Include="Icon\32位PNG\button_options_32.png" />
+    <None Include="Icon\32位PNG\button_start_32.png" />
+    <None Include="Icon\32位PNG\button_stop_32.png" />
+    <None Include="Icon\32位PNG\download_32.png" />
+    <None Include="Icon\32位PNG\Thumbs.db" />
+    <None Include="Icon\32位PNG\upload_32.png" />
+    <None Include="Icon\32位PNG\wait.png" />
+    <None Include="Icon\32位PNG\warning_32.png" />
+    <None Include="Icon\Status\fail.png" />
+    <None Include="Icon\Status\finish.png" />
+    <None Include="Icon\Status\start.png" />
+    <None Include="Icon\Status\stop.png" />
+    <None Include="Icon\Status\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Complents\Complents.csproj">
+      <Project>{46253A9E-D116-48B7-8A5E-C3A010FE90EE}</Project>
+      <Name>Complents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DownLoadService\DownLoadService.csproj">
+      <Project>{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}</Project>
+      <Name>DownLoadService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtendControl\ExtendControl.csproj">
+      <Project>{D94321AC-097C-4046-9F08-93B809B92818}</Project>
+      <Name>ExtendControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{189858F4-6538-4B8B-A22B-A9F197D2D75C}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Weather\bin\Debug\Weather.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Weather\bin\Debug\Weather.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Weather\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Weather\obj\x86\Debug\Weather.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Weather\obj\x86\Debug\Weather.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Weather\bin\Debug\Weather.dll
+C:\Users\Administrator\Desktop\JobAndTask\Weather\bin\Debug\Weather.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Weather\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JobAndTask\Weather\obj\x86\Debug\Weather.dll
+C:\Users\Administrator\Desktop\JobAndTask\Weather\obj\x86\Debug\Weather.pdb

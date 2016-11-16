@@ -1,0 +1,4 @@
+C:\Users\pzh\Desktop\JobAndTask\Weather\bin\Debug\Weather.dll
+C:\Users\pzh\Desktop\JobAndTask\Weather\bin\Debug\Weather.pdb
+C:\Users\pzh\Desktop\JobAndTask\Weather\obj\Debug\Weather.dll
+C:\Users\pzh\Desktop\JobAndTask\Weather\obj\Debug\Weather.pdb

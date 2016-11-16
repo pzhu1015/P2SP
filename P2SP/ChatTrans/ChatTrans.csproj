@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{27A4A778-EAD5-4973-9B37-E2E692041277}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ChatTrans</RootNamespace>
+    <AssemblyName>ChatTrans</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AudioCancelTrans.cs" />
+    <Compile Include="KickOffTrans.cs" />
+    <Compile Include="LoginFailTrans.cs" />
+    <Compile Include="LoginSuccessTrans.cs" />
+    <Compile Include="LoginTrans.cs" />
+    <Compile Include="LogoutTrans.cs" />
+    <Compile Include="OfflineTrans.cs" />
+    <Compile Include="OnlineTrans.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecveFileCancelTrans.cs" />
+    <Compile Include="SendAudioBufferTrans.cs" />
+    <Compile Include="SendAudioResponseTrans.cs" />
+    <Compile Include="SendAudioTrans.cs" />
+    <Compile Include="SendFileBufferTrans.cs" />
+    <Compile Include="SendFileCancelTrans.cs" />
+    <Compile Include="SendFileTrans.cs" />
+    <Compile Include="SendFileResponseTrans.cs" />
+    <Compile Include="SendFolderTrans.cs" />
+    <Compile Include="SendMsgTrans.cs" />
+    <Compile Include="VibrationTrans.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Chat\Chat.csproj">
+      <Project>{98EFF8D5-982C-4399-B346-CEAAA8114CA4}</Project>
+      <Name>Chat</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SendFileService\SendFileService.csproj">
+      <Project>01EFFD88-7AA1-4C99-A736-864B539BEC01</Project>
+      <Name>SendFileService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SendFileService\SendFileService.csproj">
+      <Project>{ed9f82c6-77d5-48f0-a28e-e2177e3951e1}</Project>
+      <Name>SendFileService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Trans\Trans.csproj">
+      <Project>{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}</Project>
+      <Name>Trans</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

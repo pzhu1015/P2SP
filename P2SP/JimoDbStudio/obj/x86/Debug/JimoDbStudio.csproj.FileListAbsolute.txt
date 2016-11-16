@@ -1,0 +1,9 @@
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\bin\Debug\JimoDbStudio.exe
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\bin\Debug\JimoDbStudio.pdb
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\obj\x86\Debug\JimoDbStudio.Form1.resources
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\obj\x86\Debug\JimoDbStudio.MainForm.resources
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\obj\x86\Debug\JimoDbStudio.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\obj\x86\Debug\JimoDbStudio.exe
+C:\Users\Administrator\Desktop\JobAndTask\JimoDbStudio\obj\x86\Debug\JimoDbStudio.pdb

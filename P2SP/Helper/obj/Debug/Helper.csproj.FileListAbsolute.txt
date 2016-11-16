@@ -1,0 +1,10 @@
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\Helper.dll
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\Helper.pdb
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\log4net.dll
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\System.Data.SQLite.dll
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\log4net.pdb
+C:\Users\pzh\Desktop\JobAndTask\Helper\bin\Debug\log4net.xml
+C:\Users\pzh\Desktop\JobAndTask\Helper\obj\Debug\Helper.dll
+C:\Users\pzh\Desktop\JobAndTask\Helper\obj\Debug\Helper.pdb
+C:\Users\pzh\Desktop\JobAndTask\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache

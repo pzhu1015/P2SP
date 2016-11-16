@@ -1,0 +1,11 @@
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\DownLoadService.dll
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\DownLoadService.pdb
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\Helper.dll
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\log4net.dll
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\System.Data.SQLite.dll
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\Helper.pdb
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\log4net.pdb
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\bin\Debug\log4net.xml
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\obj\Debug\DownLoadService.csprojResolveAssemblyReference.cache
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\obj\Debug\DownLoadService.dll
+C:\Users\pzh\Desktop\JobAndTask\DownLoadService\obj\Debug\DownLoadService.pdb

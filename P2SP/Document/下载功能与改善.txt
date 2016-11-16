@@ -1,0 +1,77 @@
+http://www.bizhijidi.com/wp-content/uploads/2012/01/landscapes-nature-trees-forest-day-roads.jpg
+http://xmp.down.sandai.net/kankan/XMPSetup_4.9.7.1513-www.exe
+http://wt.azpan.com:8088/dl.php?BGVQO1RsBTEHDABjVWIMaAViAT4AN1ZhAS8LtQaeBtBXtQW4UZJT5FWXCIJW5FzuArZSflQgAGUEdg5wVjVRbARvUDdUXwU9BzcAMFUyDDAFMgE6AD9WZQEnCzUGcAZvV2QFNFE0UzdVMggwViZcJQJwUm1UYAA0BDUOZVZ8UTUEMlB9VDAFYAd8ADpVNAw9BWQBNQBlVmMBNwsxBjsGM1diBWVRN1M6VTAIPFZiXGQCNFJiVGoANQQ1DmBWYFFhBDBQZlQ3BWQHYgAjVXEMZAV1ASUAYFY7AW0LNgZcBjtXNAU6UTRTN1U0CDxWOVxiAiZSOFQzAHcEbA5rVhZRRgQwUBFURQVhB2UAP1U1DD0FMAE2ADNWEwEyCxAGMgZnV2QFMFFDU0BVRQhHVkNcbAI4UhJUFgBGBEYOFw==
+
+http://music.baidu.com/data/music/file?link=http://zhangmenshiting.baidu.com/data2/music/35436314/2814832230400128.mp3?xcode=4162df244ed20901b639b3d1b2fa946c
+
+http://download.microsoft.com/download/F/1/0/F10113F5-B750-4969-A255-274341AC6BCE/GRMSDK_EN_DVD.iso
+
+
+ftp://down.richbar.com.cn/RichFTP/%C9%CF%BA%A3%B7%FE%CE%F1%C6%F7/
+
+ftp://down.richbar.com.cn/RichFTP/%C9%CF%BA%A3%B7%FE%CE%F1%C6%F7/%C9%CF%BA%A3%B7%FE%CE%F1%C6%F7.rar
+
+ftp://rich:rich@down.richbar.com.cn/%C9%CF%BA%A3%B7%FE%CE%F1%C6%F7/%C9%CF%BA%A3%B7%FE%CE%F1%C6%F7.rar
+
+ftp://down.richbar.com.cn/RichFTP/上海服务器/上海服务器.rar
+
+ftp://rich:rich@down.richbar.com.cn/setup71n.zip
+
+ftp://rich:rich@down.richbar.com.cn/video/WPAZ.swf
+
+ftp://rich:rich@down.richbar.com.cn/RichFTP/soft/RemotelyAnyWhere-v8.0.668.rar
+
+* +EXSplitContainer有bug
+* +SplitButton扩展(继续,立即下载按钮)
+* +多线程下载时,如果有线程的网络出现异常,要重启一个线程继续下载这一段数据
+* +文件图标显示问题,如何从系统中找到对应的文件图标
+* +ftp协议下载
+* +同时最多能启动多少任务(Queue改成用LinkList)
+* +ftp下载时如果有用户名密码自动在NewTaskInfoForm中填充,用户可修改用户名密码,下载时不用full url,要去掉用户名密码
+* +用户可以自定义单个任务源始地址下载线程数
+* +EXListView resize时文件类型图标消失,有内存泄漏(加caching) ListViewInit时用IDictonary<string, Image>保存图系统图片(MonitorExts.xml)
+* +自动捕捉windows剪贴板内容,如果有合法的url则显示url输入框
+* 可编辑的label(LostFocus事件)
+* 网络出现异常时,重启线程下载这一段数据,但如果任务处于停止状态时就不用重启线程
+* 智能切分新的block进行下载,SmartCutBlock(加锁)
+* 开始暂停测试
+* 各种类型url测试
+* +立即下载时检测文件保存路径是否存在,不存在显示目录对话框选择保存目录
+* p2p协议下载(开发Server端)
+* p2sp协议下载(开发Server端)
+* taskinfo存储方式xml方式不安全,在程序异常关闭时信息丢失
+* +将GetHeader这件事放到task中去做
+* 将taskDoc改成用sqllite
+
+将DownLoadService改成一个独立运行的进程,用Tcp进行通信,发送Start,Stop命令
+
+
+协议针对于Http,先谈一下简单原理。因为代码太多，在这里只取重点分析。
+
+
+如何解决使用HttpWebRequest时遇到的”(407) 需要代理身份验证。”
+
+一般企业中多使用代理服务器(企业防火墙)来控制网络的访问.
+ 
+在这种情况下,我们需要设置HttpWebRequest的proxy来进行代理的配置.
+ 
+1. 简单的方式
+如果你使用IE能够访问,那么通过这种方式就能够访问. 这里的代理设置采用了系统的默认配置.
+ 
+//这里获取了代理服务器的地址和端口
+WebProxy myProxy = WebProxy.GetDefaultProxy();
+//这里获取了代理服务器的权限(用户名和密码)
+myProxy.Credentials = CredentialCache.DefaultCredentials;
+myHttpWebProxy.Proxy = myProxy;
+ 
+2. 自定义配置方式
+如果你的代理配置不是系统默认配置, 而且你自己知道代理的配置参数, 那么你可以采用如下配置.
+ 
+WebProxy myProxy = new WebProxy();
+myProxy.Address = new Uri(customAddress);
+myProxy.Credentials = new NetworkCredentials(customUser, customPass, customDomain);
+myHttpWebProxy.Proxy = myProxy;
+
+
+
+

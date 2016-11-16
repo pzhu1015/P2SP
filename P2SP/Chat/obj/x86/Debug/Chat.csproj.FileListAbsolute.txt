@@ -1,0 +1,32 @@
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Chat.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Chat.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\AudioService.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Helper.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\SendFileService.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\System.Data.SQLite.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Trans.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Microsoft.DirectX.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Microsoft.DirectX.DirectSound.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Trans.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\Helper.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\AudioService.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\bin\Debug\SendFileService.pdb
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\obj\x86\Debug\Chat.dll
+C:\Documents and Settings\Administrator\桌面\Job\JobAndTask\Chat\obj\x86\Debug\Chat.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\Chat.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\Chat.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\AudioService.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\Helper.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\SendFileService.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\System.Data.SQLite.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\Trans.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\Trans.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\Helper.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\AudioService.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Chat\bin\Debug\SendFileService.pdb
+C:\Users\Administrator\Desktop\JobAndTask\Chat\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\JobAndTask\Chat\obj\x86\Debug\Chat.dll
+C:\Users\Administrator\Desktop\JobAndTask\Chat\obj\x86\Debug\Chat.pdb

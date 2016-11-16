@@ -1,0 +1,13 @@
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\AudioService.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\AudioService.pdb
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\Helper.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\Microsoft.DirectX.DirectSound.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\Microsoft.DirectX.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\log4net.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\System.Data.SQLite.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\Helper.pdb
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\log4net.pdb
+C:\Users\pzh\Desktop\JobAndTask\AudioService\bin\Debug\log4net.xml
+C:\Users\pzh\Desktop\JobAndTask\AudioService\obj\Debug\AudioService.dll
+C:\Users\pzh\Desktop\JobAndTask\AudioService\obj\Debug\AudioService.pdb
+C:\Users\pzh\Desktop\JobAndTask\AudioService\obj\Debug\AudioService.csprojResolveAssemblyReference.cache

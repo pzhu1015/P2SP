@@ -1,0 +1,21 @@
+1. Client与Server端通信:
+	Connect();
+	ConnectCb(); 不调用Recve()
+	ASyncSendWithResp();发送登录请求
+	如果登录成功;
+	Client端StartListen();
+2. Client与Client端通信:
+	Client端
+	Connect();
+	ConnectCb(); 不调用Recve()
+	ASyncSend() or AsyncSendWithResp(); 发送消息,文件,语音,视频
+	AsyncSend()后WaitAck();
+	AsyncSendCb()后Recve();
+	AsyncSendWithResp()后WaitResp();
+	AsyncSendCb()后Recve();
+
+	Server端
+	BeginAccecpt();AccecptCb()后调用Recve()
+	RecveCb()后;SendAck() or SendResp();
+
+

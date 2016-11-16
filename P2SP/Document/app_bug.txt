@@ -1,0 +1,39 @@
+===============================================================bug
+SendFileReader.cs : 170] ========================: -249856
+
+********************* error *********************
+  DateTime : 2014-5-13 14:25:31
+  FileName : MainForm.cs
+LineNumber : 686
+  ErrorMsg : System.OverflowException: 算术运算导致溢出。
+   在 TcpSendFileService.SendFileReader.Read(Int32 idx) 位置 c:\Documents and Settings\Administrator\桌面\Job\JobAndTask\TcpSendFileService\SendFileReader.cs:行号 172
+   在 TcpSendFileService.SendFileReader.Read() 位置 c:\Documents and Settings\Administrator\桌面\Job\JobAndTask\TcpSendFileService\SendFileReader.cs:行号 186
+   在 ChatClientUI.MainForm.ProcSendFileBufferResponse(BaseTrans trans) 位置 c:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatClientUI\MainForm.cs:行号 678
+
+********************* error *********************
+
+[ChatForm.cs : 527] *****************finish: F794958F02458F3447A53A723C66E77F
+失败: 
+
+********************* error *********************
+  DateTime : 2014-5-13 14:25:32
+  FileName : ChatForm.cs
+LineNumber : 556
+  ErrorMsg : System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ChatClientUI.ChatForm.reader_UpdateProgress(Object sender, UpdateProgressEventArgs args) 位置 c:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatClientUI\ChatForm.cs:行号 543
+
+********************* error *********************
+
+
+
+[ChatForm.cs : 628] *****************finish: F794958F02458F3447A53A723C66E77F
+失败: 
+
+********************* error *********************
+  DateTime : 2014-5-13 14:25:32
+  FileName : ChatForm.cs
+LineNumber : 663
+  ErrorMsg : System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ChatClientUI.ChatForm.writer_UpdateProgress(Object sender, UpdateProgressEventArgs args) 位置 c:\Documents and Settings\Administrator\桌面\Job\JobAndTask\ChatClientUI\ChatForm.cs:行号 650
+
+********************* error *********************

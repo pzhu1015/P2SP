@@ -1,0 +1,4 @@
+C:\Users\pzh\Desktop\JobAndTask\Resources\bin\Debug\Resources.dll
+C:\Users\pzh\Desktop\JobAndTask\Resources\bin\Debug\Resources.pdb
+C:\Users\pzh\Desktop\JobAndTask\Resources\obj\Debug\Resources.dll
+C:\Users\pzh\Desktop\JobAndTask\Resources\obj\Debug\Resources.pdb

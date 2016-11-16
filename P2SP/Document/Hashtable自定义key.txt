@@ -1,0 +1,1 @@
+自定义类作为key,要实现GetHashCode和Equals方法

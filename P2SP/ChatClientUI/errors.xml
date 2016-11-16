@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<errors>
+	<error id="0">成功</error>
+	<error id="1">用户名或密码不正确</error>
+	<error id="2">您的账户在另一地点被登录</error>
+	<error id="3">连接服器失败</error>
+</errors>

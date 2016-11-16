@@ -1,0 +1,11 @@
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\Trans.dll
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\Trans.pdb
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\Helper.dll
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\log4net.dll
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\System.Data.SQLite.dll
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\Helper.pdb
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\log4net.pdb
+C:\Users\pzh\Desktop\JobAndTask\Trans\bin\Debug\log4net.xml
+C:\Users\pzh\Desktop\JobAndTask\Trans\obj\Debug\Trans.csprojResolveAssemblyReference.cache
+C:\Users\pzh\Desktop\JobAndTask\Trans\obj\Debug\Trans.dll
+C:\Users\pzh\Desktop\JobAndTask\Trans\obj\Debug\Trans.pdb
