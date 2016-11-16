@@ -214,8 +214,8 @@
     </Compile>
     <Compile Include="FastCloredTextBoxComp\VisualMarker.cs" />
     <Compile Include="HideOnStartupApplicationContext.cs" />
-    <Compile Include="P2SPService\AckTrans.cs" />
-    <Compile Include="P2SPService\BaseTrans.cs" />
+    <Compile Include="P2SPService\AckMsg.cs" />
+    <Compile Include="P2SPService\BaseMsg.cs" />
     <Compile Include="P2SPService\IDataCell.cs" />
     <Compile Include="P2SPService\P2SPAcceptEventArgs.cs" />
     <Compile Include="P2SPService\P2SPClient.cs" />
@@ -228,16 +228,30 @@
     <Compile Include="P2SPService\P2SPStartEventArgs.cs" />
     <Compile Include="P2SPService\P2SPStopEventArgs.cs" />
     <Compile Include="P2SPService\ReadWriteObject.cs" />
-    <Compile Include="P2SPService\RespTrans.cs" />
+    <Compile Include="P2SPService\RespMsg.cs" />
     <Compile Include="P2SPService\SendCell.cs" />
-    <Compile Include="P2SPService\TransId.cs" />
-    <Compile Include="P2SPService\TransIdMgr.cs" />
+    <Compile Include="P2SPService\MsgId.cs" />
+    <Compile Include="P2SPService\MsgIdMgr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
     </Compile>
+    <Compile Include="SendFileService\CompleteReadEventArgs.cs" />
+    <Compile Include="SendFileService\CompleteWriteEventArgs.cs" />
+    <Compile Include="SendFileService\FileIdMgr.cs" />
+    <Compile Include="SendFileService\ReadBufferEventArgs.cs" />
+    <Compile Include="SendFileService\ReadFolderEventArgs.cs" />
+    <Compile Include="SendFileService\RecveFileWriter.cs" />
+    <Compile Include="SendFileService\RecveFolderWriter.cs" />
+    <Compile Include="SendFileService\RecveWriter.cs" />
+    <Compile Include="SendFileService\SendFileReader.cs" />
+    <Compile Include="SendFileService\SendFolderReader.cs" />
+    <Compile Include="SendFileService\SendReader.cs" />
+    <Compile Include="SendFileService\UpdateProgressEventArgs.cs" />
+    <Compile Include="SendFileService\WriteBufferEventArgs.cs" />
+    <Compile Include="SendFileService\WriteFolderEventArgs.cs" />
     <EmbeddedResource Include="ChatComp\AudioPanel.resx">
       <DependentUpon>AudioPanel.cs</DependentUpon>
     </EmbeddedResource>

@@ -171,17 +171,24 @@ namespace Complents.P2SPService
 		
 		#region public interfaces
 		
+        /// <summary>
+        /// start to listen the specify port
+        /// </summary>
+        /// <param name="_port"></param>
 		public void Start(int _port)
 		{
-			AsyncHelper.AsyncHandler ah = new AsyncHelper.AsyncHandler(SendTrans);
+			AsyncHelper.AsyncHandler ah = new AsyncHelper.AsyncHandler(SendMsgs);
 			ah.BeginInvoke(null, null);
 			
-			ah = new AsyncHelper.AsyncHandler(RecveTrans);
+			ah = new AsyncHelper.AsyncHandler(RecveMsgs);
 			ah.BeginInvoke(null, null);
 			
 			this.OnP2SPStart(new P2SPStartEventArgs(_port));
 		}
 		
+        /// <summary>
+        /// stop to listen
+        /// </summary>
 		public void Stop()
 		{
 			this.isStart = false;
@@ -189,6 +196,10 @@ namespace Complents.P2SPService
 			this.OnP2SPStop(new P2SPStopEventArgs());
 		}
 		
+        /// <summary>
+        /// connect to the remoteEP
+        /// </summary>
+        /// <param name="_remoteEP"></param>
 		public void Connect(IPEndPoint _remoteEP)
 		{
 			TcpClient client = new TcpClient(AddressFamily.InterNetwork);
@@ -196,41 +207,91 @@ namespace Complents.P2SPService
 			client.BeginConnect(_remoteEP.Address, _remoteEP.Port, new AsyncCallback(ConnectCb), client);
 		}
 		
-		public BaseTrans Send(BaseTrans _trans)
+        /// <summary>
+        /// send the msg
+        /// </summary>
+        /// <param name="_msg"></param>
+        /// <returns></returns>
+		public RespMsg Send(BaseMsg _msg)
 		{
 			lock(waitLocker)
 			{
-				this.waitMap.Add(_trans.TransId.ToString(), _trans);
+				this.waitMap.Add(_msg.MsgId.ToString(), _msg);
 			}
 			lock(sendLocker)
 			{
-				sendQueue.Enqueue(_trans);
+				sendQueue.Enqueue(_msg);
 				Monitor.Pulse(sendLocker);
 			}
 			//may wait use the semphone wait
-			if (_trans.IsNeedResp)
+			if (_msg.IsNeedResp)
 			{
-				return _trans.WaitResp();
+				return _msg.WaitResp();
 			}
 			else
 			{
-				_trans.WaitAck();
+				_msg.WaitAck();
 				return null;
 			}
 		}
-		
-		#endregion
-		
-		#region private interfaces
-		
-		private void ConnectCb(IAsyncResult ia)
+
+        /// <summary>
+        /// send the msg confirm
+        /// </summary>
+        /// <param name="_msg"></param>
+        public void SendAck(BaseMsg _msg)
+        {
+            BaseMsg ackMsg = new AckMsg(_msg.MsgId);
+            lock (sendLocker)
+            {
+                sendQueue.Enqueue(_msg);
+                Monitor.Pulse(sendLocker);
+            }
+        }
+
+        /// <summary>
+        /// recve msg response
+        /// </summary>
+        /// <param name="_respMsg"></param>
+        public void RecveResp(RespMsg _respMsg)
+        {
+            BaseMsg msg = null;
+            lock (waitLocker)
+            {
+                msg = this.waitMap[_respMsg.ReqId.ToString()] as BaseMsg;
+                this.waitMap.Remove(msg.MsgId.ToString());
+            }
+            msg.RecveResp(_respMsg);
+        }
+
+        /// <summary>
+        /// recve msg confirm
+        /// </summary>
+        /// <param name="_msg"></param>
+        public void RecveAck(BaseMsg _msg)
+        {
+            AckMsg ackMsg = _msg as AckMsg;
+            BaseMsg msg = null;
+            lock (waitLocker)
+            {
+                msg = this.waitMap[ackMsg.ReqId.ToString()] as BaseMsg;
+                this.waitMap.Remove(msg.MsgId.ToString());
+            }
+            msg.RecvAck();
+        }
+
+        #endregion
+
+        #region private interfaces
+
+        private void ConnectCb(IAsyncResult ia)
 		{
 			TcpClient client = ia.AsyncState as TcpClient;
 			client.EndConnect(ia);
 			this.OnP2SPConnect(new P2SPConnectEventArgs(client));
 		}
 		
-		private void RecveTrans()
+		private void RecveMsgs()
 		{
 			while(this.isStart)
 			{
@@ -247,30 +308,29 @@ namespace Complents.P2SPService
 					}
 					else
 					{
-						BaseTrans trans = recveQueue.Dequeue() as BaseTrans;
-						if (trans.Type == TransType.eAck)
-						{
-							this.RecveAck(trans);
-						}
-						else if (trans.Type == TransType.eResp)
-						{
-							this.SendAck(trans);
-							this.RecveResp(trans);
-                            //this.OnP2SPRecve(new P2SPRecveEventArgs(trans));
-                            trans.OnTransProcess(new EventArgs());
-						}
-						else
-						{
-							this.SendAck(trans);
-                            //this.OnP2SPRecve(new P2SPRecveEventArgs(trans));
-                            trans.OnTransProcess(new EventArgs());
-                        }
+						BaseMsg msg = recveQueue.Dequeue() as BaseMsg;
+                        this.OnP2SPRecve(new P2SPRecveEventArgs(msg));
+						//if (msg.Type == MsgType.eAck)
+						//{
+						//	this.RecveAck(msg);
+						//}
+						//else if (msg.Type == MsgType.eResp)
+						//{
+						//	this.SendAck(msg);
+						//	this.RecveResp(msg as RespMsg);
+                        //  this.OnP2SPRecve(new P2SPRecveEventArgs(msg));
+                        //}
+						//else
+						//{
+						//	this.SendAck(msg);
+                        //  this.OnP2SPRecve(new P2SPRecveEventArgs(msg));
+                        //}
 					}
 				}
 			}
 		}
 		
-		private void SendTrans()
+		private void SendMsgs()
 		{
 			while(this.isStart)
 			{
@@ -287,12 +347,12 @@ namespace Complents.P2SPService
 					}
 					else
 					{
-						BaseTrans trans = sendQueue.Dequeue() as BaseTrans;
-						TcpClient client = trans.Client;
+						BaseMsg msg = sendQueue.Dequeue() as BaseMsg;
+						TcpClient client = msg.Client;
 						try
 						{
 							ReadWriteObject readWriteObject = new ReadWriteObject();
-							SendCell cell = new SendCell(trans);
+							SendCell cell = new SendCell(msg);
 							readWriteObject.SetSendBuff(cell.ToBuffer());
 							NetworkStream ns = client.GetStream();
 							if (ns.CanWrite)
@@ -314,41 +374,7 @@ namespace Complents.P2SPService
 				}
 			}
 		}
-		
-		private void SendAck(BaseTrans _trans)
-		{
-			BaseTrans ackTrans = new AckTrans(_trans.TransId);
-			lock(sendLocker)
-			{
-				sendQueue.Enqueue(_trans);
-				Monitor.Pulse(sendLocker);
-			}
-		}
-		
-		private void RecveResp(BaseTrans _trans)
-		{
-			RespTrans respTrans = _trans as RespTrans;
-			BaseTrans trans = null;
-			lock(waitLocker)
-			{
-				trans = this.waitMap[respTrans.ReqId.ToString()] as BaseTrans;
-				this.waitMap.Remove(trans.TransId.ToString());
-			}
-			trans.RecveResp(respTrans);
-		}
-		
-		private void RecveAck(BaseTrans _trans)
-		{
-			AckTrans ackTrans = _trans as AckTrans;
-			BaseTrans trans = null;
-			lock(waitLocker)
-			{
-				trans = this.waitMap[ackTrans.ReqId.ToString()] as BaseTrans;
-				this.waitMap.Remove(trans.TransId.ToString());
-			}
-			trans.RecvAck();
-		}
-		
+
 		private void Recve(TcpClient _client)
 		{
 			try
@@ -385,11 +411,11 @@ namespace Complents.P2SPService
 								{
 									SendCell cell = new SendCell();
 									cell.FromBuffer(readWriteObject.ReadBuff);
-									BaseTrans trans = (BaseTrans)(cell.Data);
-									trans.Client = _client;
+									BaseMsg msg = (BaseMsg)(cell.Data);
+									msg.Client = _client;
 									lock(recveLocker)
 									{
-										recveQueue.Enqueue(trans);
+										recveQueue.Enqueue(msg);
 										Monitor.Pulse(recveLocker);
 									}
 									readWriteObject.SetReadBuff(sizeof(int), true);

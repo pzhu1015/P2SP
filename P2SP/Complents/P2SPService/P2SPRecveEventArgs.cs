@@ -16,18 +16,18 @@ namespace Complents.P2SPService
 	public delegate void P2SPRecveHandler(object sender, P2SPRecveEventArgs args);
 	public class P2SPRecveEventArgs : EventArgs
 	{
-		private BaseTrans trans;
+		private BaseMsg msg;
 		
-		public BaseTrans Trans {
-			get { return trans; }
-			set { trans = value; }
+		public BaseMsg Msg {
+			get { return msg; }
+			set { msg = value; }
 		}
 		
-		public P2SPRecveEventArgs(BaseTrans _trans)
+		public P2SPRecveEventArgs(BaseMsg _msg)
 			:
 			base()
 		{
-			this.trans = _trans;
+			this.msg = _msg;
 		}
 	}
 }

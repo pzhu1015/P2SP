@@ -1,0 +1,21 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/P2SP/Complents/bin/Debug
+/P2SP/Helper/bin/Debug
+/P2SP/SendFileService/bin/Debug
+/P2SP/AudioService/bin/Debug
+/P2SP/Chat/bin/Debug
+/P2SP/ChatClientUI/bin/Debug
+/P2SP/ChatServerUI/bin/Debug
+/P2SP/ChatTrans/bin/Debug
+/P2SP/DownLoad/bin/Debug
+/P2SP/DownLoadService/bin/Debug
+/P2SP/ExtendControl/bin/Debug
+/P2SP/JimoDbStudio/bin/Debug
+/P2SP/P2PService/bin/Debug
+/P2SP/Resources/bin/Debug
+/P2SP/Trans/bin/Debug
+/P2SP/Weather/bin/Debug
+/P2SP/.vs/P2SP/v14
