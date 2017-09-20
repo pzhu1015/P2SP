@@ -179,7 +179,7 @@ namespace ChatClientUI
             this.tssbVideo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tssbVideo.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssbVideo.Name = "tssbVideo";
-            this.tssbVideo.Size = new System.Drawing.Size(47, 30);
+            this.tssbVideo.Size = new System.Drawing.Size(44, 30);
             this.tssbVideo.ToolTipText = "开始视频会话";
             // 
             // tssbAudio
@@ -195,39 +195,39 @@ namespace ChatClientUI
             this.tssbAudio.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tssbAudio.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssbAudio.Name = "tssbAudio";
-            this.tssbAudio.Size = new System.Drawing.Size(42, 30);
+            this.tssbAudio.Size = new System.Drawing.Size(41, 30);
             this.tssbAudio.Text = "toolStripDropDownButton1";
             this.tssbAudio.ToolTipText = "开始语音通话";
             // 
             // tsmiStartAudio
             // 
             this.tsmiStartAudio.Name = "tsmiStartAudio";
-            this.tsmiStartAudio.Size = new System.Drawing.Size(174, 26);
+            this.tsmiStartAudio.Size = new System.Drawing.Size(148, 22);
             this.tsmiStartAudio.Text = "开始语音通话";
             this.tsmiStartAudio.Click += new System.EventHandler(this.TsmiStartAudioClick);
             // 
             // tsmiMutilAudio
             // 
             this.tsmiMutilAudio.Name = "tsmiMutilAudio";
-            this.tsmiMutilAudio.Size = new System.Drawing.Size(174, 26);
+            this.tsmiMutilAudio.Size = new System.Drawing.Size(148, 22);
             this.tsmiMutilAudio.Text = "发起多人语音";
             // 
             // 语音设置ToolStripMenuItem
             // 
             this.语音设置ToolStripMenuItem.Name = "语音设置ToolStripMenuItem";
-            this.语音设置ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
+            this.语音设置ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.语音设置ToolStripMenuItem.Text = "语音设置";
             // 
             // 语音测试向导ToolStripMenuItem
             // 
             this.语音测试向导ToolStripMenuItem.Name = "语音测试向导ToolStripMenuItem";
-            this.语音测试向导ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
+            this.语音测试向导ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.语音测试向导ToolStripMenuItem.Text = "语音测试向导";
             // 
             // 发送语音消息ToolStripMenuItem
             // 
             this.发送语音消息ToolStripMenuItem.Name = "发送语音消息ToolStripMenuItem";
-            this.发送语音消息ToolStripMenuItem.Size = new System.Drawing.Size(174, 26);
+            this.发送语音消息ToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
             this.发送语音消息ToolStripMenuItem.Text = "发送语音消息";
             // 
             // tssbSendFile
@@ -240,19 +240,19 @@ namespace ChatClientUI
             this.tssbSendFile.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tssbSendFile.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssbSendFile.Name = "tssbSendFile";
-            this.tssbSendFile.Size = new System.Drawing.Size(42, 30);
+            this.tssbSendFile.Size = new System.Drawing.Size(41, 30);
             // 
             // tsmiSendFile
             // 
             this.tsmiSendFile.Name = "tsmiSendFile";
-            this.tsmiSendFile.Size = new System.Drawing.Size(163, 26);
+            this.tsmiSendFile.Size = new System.Drawing.Size(139, 22);
             this.tsmiSendFile.Text = "发送文件(&S)";
             this.tsmiSendFile.Click += new System.EventHandler(this.TsmiSendFileClick);
             // 
             // tsmiSendFloder
             // 
             this.tsmiSendFloder.Name = "tsmiSendFloder";
-            this.tsmiSendFloder.Size = new System.Drawing.Size(163, 26);
+            this.tsmiSendFloder.Size = new System.Drawing.Size(139, 22);
             this.tsmiSendFloder.Text = "发送文件夹";
             this.tsmiSendFloder.Click += new System.EventHandler(this.TsmiSendFloderClick);
             // 
@@ -274,7 +274,7 @@ namespace ChatClientUI
             this.tssbRemoteDesktop.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tssbRemoteDesktop.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tssbRemoteDesktop.Name = "tssbRemoteDesktop";
-            this.tssbRemoteDesktop.Size = new System.Drawing.Size(47, 30);
+            this.tssbRemoteDesktop.Size = new System.Drawing.Size(44, 30);
             this.tssbRemoteDesktop.ToolTipText = "远程桌面";
             // 
             // lblPersonalMsg
@@ -290,7 +290,7 @@ namespace ChatClientUI
             this.lblPersonalMsg.ForeColor = System.Drawing.Color.Black;
             this.lblPersonalMsg.Location = new System.Drawing.Point(58, 34);
             this.lblPersonalMsg.Name = "lblPersonalMsg";
-            this.lblPersonalMsg.Size = new System.Drawing.Size(99, 20);
+            this.lblPersonalMsg.Size = new System.Drawing.Size(80, 17);
             this.lblPersonalMsg.TabIndex = 139;
             this.lblPersonalMsg.Text = "我的个性签名";
             // 
@@ -312,7 +312,7 @@ namespace ChatClientUI
             // 
             this.splitContainerMain.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(220)))), ((int)(((byte)(237)))));
             this.splitContainerMain.Size = new System.Drawing.Size(553, 418);
-            this.splitContainerMain.SplitterDistance = 393;
+            this.splitContainerMain.SplitterDistance = 399;
             this.splitContainerMain.SplitterWidth = 1;
             this.splitContainerMain.TabIndex = 135;
             // 
@@ -322,7 +322,7 @@ namespace ChatClientUI
             this.splitBtn.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.splitBtn.Dock = System.Windows.Forms.DockStyle.Right;
             this.splitBtn.DownBack = null;
-            this.splitBtn.Location = new System.Drawing.Point(389, 0);
+            this.splitBtn.Location = new System.Drawing.Point(395, 0);
             this.splitBtn.MouseBack = null;
             this.splitBtn.Name = "splitBtn";
             this.splitBtn.NormlBack = null;
@@ -353,7 +353,7 @@ namespace ChatClientUI
             this.splitContainer3.Panel2.Controls.Add(this.btnShortKeyDropDown);
             this.splitContainer3.Panel2.Controls.Add(this.btnClose);
             this.splitContainer3.Panel2MinSize = 40;
-            this.splitContainer3.Size = new System.Drawing.Size(393, 418);
+            this.splitContainer3.Size = new System.Drawing.Size(399, 418);
             this.splitContainer3.SplitterDistance = 377;
             this.splitContainer3.SplitterWidth = 1;
             this.splitContainer3.TabIndex = 0;
@@ -380,7 +380,7 @@ namespace ChatClientUI
             this.splitContainer4.Panel2.Controls.Add(this.txtSend);
             this.splitContainer4.Panel2.Controls.Add(this.skToolMenuMiddle);
             this.splitContainer4.Panel2MinSize = 0;
-            this.splitContainer4.Size = new System.Drawing.Size(393, 377);
+            this.splitContainer4.Size = new System.Drawing.Size(399, 377);
             this.splitContainer4.SplitterDistance = 228;
             this.splitContainer4.SplitterWidth = 1;
             this.splitContainer4.TabIndex = 0;
@@ -393,7 +393,7 @@ namespace ChatClientUI
             this.txtRecve.Location = new System.Drawing.Point(0, 0);
             this.txtRecve.Name = "txtRecve";
             this.txtRecve.ReadOnly = true;
-            this.txtRecve.Size = new System.Drawing.Size(393, 228);
+            this.txtRecve.Size = new System.Drawing.Size(399, 228);
             this.txtRecve.TabIndex = 135;
             this.txtRecve.Text = "";
             this.txtRecve.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
@@ -518,7 +518,7 @@ namespace ChatClientUI
             this.txtSend.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
             this.txtSend.Location = new System.Drawing.Point(0, 27);
             this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(393, 121);
+            this.txtSend.Size = new System.Drawing.Size(399, 121);
             this.txtSend.TabIndex = 134;
             this.txtSend.Text = "";
             this.txtSend.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
@@ -572,7 +572,7 @@ namespace ChatClientUI
             this.skToolMenuMiddle.Name = "skToolMenuMiddle";
             this.skToolMenuMiddle.Padding = new System.Windows.Forms.Padding(0);
             this.skToolMenuMiddle.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.skToolMenuMiddle.Size = new System.Drawing.Size(393, 27);
+            this.skToolMenuMiddle.Size = new System.Drawing.Size(399, 27);
             this.skToolMenuMiddle.TabIndex = 133;
             this.skToolMenuMiddle.Text = "skinToolStrip1";
             this.skToolMenuMiddle.TitleAnamorphosis = false;
@@ -646,13 +646,13 @@ namespace ChatClientUI
             this.tsbMsgHistory.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.tsbMsgHistory.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbMsgHistory.Name = "tsbMsgHistory";
-            this.tsbMsgHistory.Size = new System.Drawing.Size(108, 24);
+            this.tsbMsgHistory.Size = new System.Drawing.Size(92, 24);
             this.tsbMsgHistory.Text = "消息记录";
             // 
             // 显示记录ToolStripMenuItem
             // 
             this.显示记录ToolStripMenuItem.Name = "显示记录ToolStripMenuItem";
-            this.显示记录ToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
+            this.显示记录ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.显示记录ToolStripMenuItem.Text = "显示记录";
             // 
             // 显示比例ToolStripMenuItem1
@@ -668,74 +668,74 @@ namespace ChatClientUI
             this.toolStripMenuItem12,
             this.toolStripMenuItem15});
             this.显示比例ToolStripMenuItem1.Name = "显示比例ToolStripMenuItem1";
-            this.显示比例ToolStripMenuItem1.Size = new System.Drawing.Size(159, 26);
+            this.显示比例ToolStripMenuItem1.Size = new System.Drawing.Size(136, 22);
             this.显示比例ToolStripMenuItem1.Text = "显示比例";
             // 
             // 放大Ctrl滚轮ToolStripMenuItem1
             // 
             this.放大Ctrl滚轮ToolStripMenuItem1.Name = "放大Ctrl滚轮ToolStripMenuItem1";
-            this.放大Ctrl滚轮ToolStripMenuItem1.Size = new System.Drawing.Size(185, 26);
+            this.放大Ctrl滚轮ToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
             this.放大Ctrl滚轮ToolStripMenuItem1.Text = "放大 Ctrl+滚轮";
             // 
             // 缩小ToolStripMenuItem1
             // 
             this.缩小ToolStripMenuItem1.Name = "缩小ToolStripMenuItem1";
-            this.缩小ToolStripMenuItem1.Size = new System.Drawing.Size(185, 26);
+            this.缩小ToolStripMenuItem1.Size = new System.Drawing.Size(157, 22);
             this.缩小ToolStripMenuItem1.Text = "缩小";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem2.Text = "400%";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem3.Text = "200%";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem4.Text = "150%";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem5.Text = "125%";
             // 
             // toolStripMenuItem7
             // 
             this.toolStripMenuItem7.Name = "toolStripMenuItem7";
-            this.toolStripMenuItem7.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem7.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem7.Text = "100%";
             // 
             // toolStripMenuItem12
             // 
             this.toolStripMenuItem12.Name = "toolStripMenuItem12";
-            this.toolStripMenuItem12.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem12.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem12.Text = "75%";
             // 
             // toolStripMenuItem15
             // 
             this.toolStripMenuItem15.Name = "toolStripMenuItem15";
-            this.toolStripMenuItem15.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem15.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem15.Text = "50%";
             // 
             // tsmiClear
             // 
             this.tsmiClear.Name = "tsmiClear";
-            this.tsmiClear.Size = new System.Drawing.Size(159, 26);
+            this.tsmiClear.Size = new System.Drawing.Size(136, 22);
             this.tsmiClear.Text = "清屏";
             this.tsmiClear.Click += new System.EventHandler(this.TsmiClearClick);
             // 
             // 消息管理器ToolStripMenuItem
             // 
             this.消息管理器ToolStripMenuItem.Name = "消息管理器ToolStripMenuItem";
-            this.消息管理器ToolStripMenuItem.Size = new System.Drawing.Size(159, 26);
+            this.消息管理器ToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.消息管理器ToolStripMenuItem.Text = "消息管理器";
             // 
             // btnSend
@@ -746,7 +746,7 @@ namespace ChatClientUI
             this.btnSend.DownBack = global::ChatClientUI.ResourceControl.btnSend_DownBack;
             this.btnSend.DrawType = CCWin.SkinControl.DrawStyle.Img;
             this.btnSend.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSend.Location = new System.Drawing.Point(306, 7);
+            this.btnSend.Location = new System.Drawing.Point(312, 1);
             this.btnSend.Margin = new System.Windows.Forms.Padding(0);
             this.btnSend.MouseBack = global::ChatClientUI.ResourceControl.btnSend_MouseBack;
             this.btnSend.Name = "btnSend";
@@ -764,7 +764,7 @@ namespace ChatClientUI
             this.btnShortKeyDropDown.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.btnShortKeyDropDown.DownBack = global::ChatClientUI.ResourceControl.btnShortKeyDropDown_DownBack;
             this.btnShortKeyDropDown.DrawType = CCWin.SkinControl.DrawStyle.Img;
-            this.btnShortKeyDropDown.Location = new System.Drawing.Point(367, 7);
+            this.btnShortKeyDropDown.Location = new System.Drawing.Point(373, 1);
             this.btnShortKeyDropDown.Margin = new System.Windows.Forms.Padding(0);
             this.btnShortKeyDropDown.MouseBack = global::ChatClientUI.ResourceControl.btnShortKeyDropDown_MouseBack;
             this.btnShortKeyDropDown.Name = "btnShortKeyDropDown";
@@ -784,7 +784,7 @@ namespace ChatClientUI
             this.btnClose.DownBack = global::ChatClientUI.ResourceControl.btnDownBack;
             this.btnClose.DrawType = CCWin.SkinControl.DrawStyle.Img;
             this.btnClose.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnClose.Location = new System.Drawing.Point(227, 7);
+            this.btnClose.Location = new System.Drawing.Point(233, 1);
             this.btnClose.MouseBack = global::ChatClientUI.ResourceControl.btnMouseBack;
             this.btnClose.Name = "btnClose";
             this.btnClose.NormlBack = global::ChatClientUI.ResourceControl.btnNormlBack;
@@ -823,7 +823,7 @@ namespace ChatClientUI
             this.lblUserId.ForeColor = System.Drawing.Color.Black;
             this.lblUserId.Location = new System.Drawing.Point(58, 5);
             this.lblUserId.Name = "lblUserId";
-            this.lblUserId.Size = new System.Drawing.Size(110, 31);
+            this.lblUserId.Size = new System.Drawing.Size(88, 25);
             this.lblUserId.TabIndex = 138;
             this.lblUserId.Text = "我的好友";
             // 
@@ -879,54 +879,54 @@ namespace ChatClientUI
             // 放大Ctrl滚轮ToolStripMenuItem
             // 
             this.放大Ctrl滚轮ToolStripMenuItem.Name = "放大Ctrl滚轮ToolStripMenuItem";
-            this.放大Ctrl滚轮ToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.放大Ctrl滚轮ToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.放大Ctrl滚轮ToolStripMenuItem.Text = "放大 Ctrl+滚轮";
             // 
             // 缩小ToolStripMenuItem
             // 
             this.缩小ToolStripMenuItem.Name = "缩小ToolStripMenuItem";
-            this.缩小ToolStripMenuItem.Size = new System.Drawing.Size(185, 26);
+            this.缩小ToolStripMenuItem.Size = new System.Drawing.Size(157, 22);
             this.缩小ToolStripMenuItem.Text = "缩小";
             // 
             // toolStripMenuItem6
             // 
             this.toolStripMenuItem6.Name = "toolStripMenuItem6";
-            this.toolStripMenuItem6.Size = new System.Drawing.Size(182, 6);
+            this.toolStripMenuItem6.Size = new System.Drawing.Size(154, 6);
             // 
             // toolStripMenuItem8
             // 
             this.toolStripMenuItem8.Name = "toolStripMenuItem8";
-            this.toolStripMenuItem8.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem8.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem8.Text = "400%";
             // 
             // toolStripMenuItem9
             // 
             this.toolStripMenuItem9.Name = "toolStripMenuItem9";
-            this.toolStripMenuItem9.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem9.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem9.Text = "200%";
             // 
             // toolStripMenuItem10
             // 
             this.toolStripMenuItem10.Name = "toolStripMenuItem10";
-            this.toolStripMenuItem10.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem10.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem10.Text = "150%";
             // 
             // toolStripMenuItem11
             // 
             this.toolStripMenuItem11.Name = "toolStripMenuItem11";
-            this.toolStripMenuItem11.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem11.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem11.Text = "125%";
             // 
             // toolStripMenuItem13
             // 
             this.toolStripMenuItem13.Name = "toolStripMenuItem13";
-            this.toolStripMenuItem13.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem13.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem13.Text = "75%";
             // 
             // toolStripMenuItem14
             // 
             this.toolStripMenuItem14.Name = "toolStripMenuItem14";
-            this.toolStripMenuItem14.Size = new System.Drawing.Size(185, 26);
+            this.toolStripMenuItem14.Size = new System.Drawing.Size(157, 22);
             this.toolStripMenuItem14.Text = "50%";
             // 
             // menuStripShortKey
@@ -952,7 +952,7 @@ namespace ChatClientUI
             this.menuStripShortKey.ItemSplitter = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(145)))), ((int)(((byte)(209)))));
             this.menuStripShortKey.Name = "scmsShortKey";
             this.menuStripShortKey.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.menuStripShortKey.Size = new System.Drawing.Size(250, 56);
+            this.menuStripShortKey.Size = new System.Drawing.Size(208, 48);
             this.menuStripShortKey.TitleAnamorphosis = false;
             this.menuStripShortKey.TitleColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(228)))), ((int)(((byte)(236)))));
             this.menuStripShortKey.TitleRadius = 4;
@@ -964,7 +964,7 @@ namespace ChatClientUI
             this.tsmiEnter.CheckOnClick = true;
             this.tsmiEnter.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmiEnter.Name = "tsmiEnter";
-            this.tsmiEnter.Size = new System.Drawing.Size(249, 26);
+            this.tsmiEnter.Size = new System.Drawing.Size(207, 22);
             this.tsmiEnter.Text = "按Enter键发送消息";
             this.tsmiEnter.Click += new System.EventHandler(this.TsmiEnterClick);
             // 
@@ -972,14 +972,14 @@ namespace ChatClientUI
             // 
             this.tsmiCtrlEnter.CheckOnClick = true;
             this.tsmiCtrlEnter.Name = "tsmiCtrlEnter";
-            this.tsmiCtrlEnter.Size = new System.Drawing.Size(249, 26);
+            this.tsmiCtrlEnter.Size = new System.Drawing.Size(207, 22);
             this.tsmiCtrlEnter.Text = "按Ctrl+Enter键发送消息";
             this.tsmiCtrlEnter.Click += new System.EventHandler(this.TsmiCtrlEnterClick);
             // 
             // ChatForm
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(159)))), ((int)(((byte)(215)))));
             this.BackPalace = global::ChatClientUI.ResourceForm.BackPalace;

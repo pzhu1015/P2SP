@@ -72,7 +72,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsyncHelper.cs" />
-    <Compile Include="AutoLog.cs" />
+    <Compile Include="ConfigHelper.cs" />
+    <Compile Include="LogHelper.cs" />
     <Compile Include="BufferedStream .cs" />
     <Compile Include="BufferHelper.cs" />
     <Compile Include="CompressionHelper.cs" />
@@ -96,7 +97,7 @@
     <Compile Include="VoiceHelper.cs" />
     <None Include="Dll\CLAYUI.dll" />
     <None Include="Dll\clayui_forcsharp.dll">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Dll\DevComponents.DotNetBar2.dll">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
@@ -117,6 +118,9 @@
     </None>
     <None Include="Dll\System.Data.SQLite.Linq.dll">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="log4net.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>

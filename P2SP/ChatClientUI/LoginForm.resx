@@ -121,9 +121,9 @@
     <value>31, 19</value>
   </metadata>
   <metadata name="notifyIconMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>144, 14</value>
+    <value>251, 19</value>
   </metadata>
   <metadata name="menueStripMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>273, 16</value>
+    <value>516, 16</value>
   </metadata>
 </root>

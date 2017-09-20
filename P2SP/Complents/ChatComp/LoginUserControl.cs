@@ -24,8 +24,8 @@ namespace Complents.ChatComp
 		
 		public event UserControlClickHandler UserControlClick;
 		public event UserControlRemoveHandler UserControlRemove;
-		
-		protected virtual void OnUserControlClick(UserControlClickEventArgs e)
+
+        protected virtual void OnUserControlClick(UserControlClickEventArgs e)
 		{
 			if (this.UserControlClick != null)
 			{
@@ -124,7 +124,7 @@ namespace Complents.ChatComp
 		public LoginUserControl()
 		{
 			InitializeComponent();
-			this.Head = Complents.Resource.default_head;
+			this.Head = Complents.ChatCompResource.default_head;
 			this.isShowCheckBox = true;
 			this.isShowNickName = true;
 			this.isShowRemove = true;
@@ -144,19 +144,6 @@ namespace Complents.ChatComp
 		void ClickLoginUserControl(object sender, EventArgs e)
 		{
 			this.OnUserControlClick(new UserControlClickEventArgs());
-		}
-		
-		void SetBtnRemoveVisible(object sender, EventArgs e)
-		{
-//			if (this.isShowRemove)
-//			{
-//				this.btnRemove.Visible = true;
-//			}
-		}
-		
-		void SetBtnRemoveDisable(object sender, EventArgs e)
-		{
-//			this.btnRemove.Visible = false;
 		}
 		
 		void BtnRemoveClick(object sender, EventArgs e)

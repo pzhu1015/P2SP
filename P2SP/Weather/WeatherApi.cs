@@ -23,7 +23,7 @@ namespace Weather
 		
 		public string[] GetWeatherByCityName(string city)
 		{
-			return this.weatherService.getWeatherbyCityName(city);
+            return this.weatherService.getWeatherbyCityName(city);
 		}
 		
 		public string[] GetSupportCity(string province)

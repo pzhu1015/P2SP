@@ -17,7 +17,7 @@ namespace Complents.P2SPService
 	{
 		private static MsgIdMgr instance = new MsgIdMgr();
 		
-		private int id = 0;
+		private long id = 0;
 		
 		public static MsgIdMgr Instance {
 			get {
@@ -29,9 +29,9 @@ namespace Complents.P2SPService
 		{
 		}
 		
-		public int GetSeqno()
+		public long GetSeqno()
 		{
-			int nextId = System.Threading.Interlocked.Increment(ref this.id);
+			long nextId = System.Threading.Interlocked.Increment(ref this.id);
 			return nextId;
 		}
 	}

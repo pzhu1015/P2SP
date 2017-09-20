@@ -36,6 +36,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -61,6 +62,13 @@
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <DefineConstants>TRACE</DefineConstants>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
     <Reference Include="SkinForm">
@@ -70,9 +78,14 @@
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
+    <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -80,6 +93,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChatCompResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChatCompResource.resx</DependentUpon>
+    </Compile>
     <Compile Include="ChatComp\AccecptAudioClickEventArgs.cs" />
     <Compile Include="ChatComp\AudioPanel.cs">
       <SubType>UserControl</SubType>
@@ -133,6 +151,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="ChatComp\RecveClickEventArgs.cs" />
+    <Compile Include="ChatComp\RegistClickEventArgs.cs" />
     <Compile Include="ChatComp\SaveClickEventArgs.cs" />
     <Compile Include="ChatComp\SendRecveFileControl.cs">
       <SubType>UserControl</SubType>
@@ -147,6 +166,17 @@
     </Compile>
     <Compile Include="ChatComp\UserHeaderControl.Designer.cs">
       <DependentUpon>UserHeaderControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatComp\WeatherUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChatComp\WeatherUserControl.Designer.cs">
+      <DependentUpon>WeatherUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChatHeaderResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ChatHeaderResource.resx</DependentUpon>
     </Compile>
     <Compile Include="DownLoadComp\DownLoadItemClickEventArgs.cs" />
     <Compile Include="DownLoadComp\DownLoadResource1.Designer.cs">
@@ -214,9 +244,12 @@
     </Compile>
     <Compile Include="FastCloredTextBoxComp\VisualMarker.cs" />
     <Compile Include="HideOnStartupApplicationContext.cs" />
-    <Compile Include="P2SPService\AckMsg.cs" />
-    <Compile Include="P2SPService\BaseMsg.cs" />
+    <Compile Include="P2SPService\Msgs\AckMsg.cs" />
+    <Compile Include="P2SPService\Msgs\BaseMsg.cs" />
     <Compile Include="P2SPService\IDataCell.cs" />
+    <Compile Include="P2SPService\Msgs\LoginMsg.cs" />
+    <Compile Include="P2SPService\Msgs\RegistMsg.cs" />
+    <Compile Include="P2SPService\Msgs\RegistResp.cs" />
     <Compile Include="P2SPService\P2SPAcceptEventArgs.cs" />
     <Compile Include="P2SPService\P2SPClient.cs" />
     <Compile Include="P2SPService\P2SPConnectEventArgs.cs" />
@@ -228,12 +261,17 @@
     <Compile Include="P2SPService\P2SPStartEventArgs.cs" />
     <Compile Include="P2SPService\P2SPStopEventArgs.cs" />
     <Compile Include="P2SPService\ReadWriteObject.cs" />
-    <Compile Include="P2SPService\RespMsg.cs" />
+    <Compile Include="P2SPService\Msgs\RespMsg.cs" />
     <Compile Include="P2SPService\SendCell.cs" />
-    <Compile Include="P2SPService\MsgId.cs" />
+    <Compile Include="P2SPService\Msgs\MsgId.cs" />
     <Compile Include="P2SPService\MsgIdMgr.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Resource1.Designer.cs">
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Resource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resource.resx</DependentUpon>
@@ -252,6 +290,20 @@
     <Compile Include="SendFileService\UpdateProgressEventArgs.cs" />
     <Compile Include="SendFileService\WriteBufferEventArgs.cs" />
     <Compile Include="SendFileService\WriteFolderEventArgs.cs" />
+    <Compile Include="WeatherCompResource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>WeatherCompResource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WeatherRef\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChatCompResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChatCompResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="ChatComp\AudioPanel.resx">
       <DependentUpon>AudioPanel.cs</DependentUpon>
     </EmbeddedResource>
@@ -272,6 +324,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ChatComp\UserHeaderControl.resx">
       <DependentUpon>UserHeaderControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatComp\WeatherUserControl.resx">
+      <DependentUpon>WeatherUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChatHeaderResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ChatHeaderResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="DownLoadComp\DownLoadResource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -297,7 +356,11 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeatherCompResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>WeatherCompResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -309,6 +372,10 @@
       <Project>01EFFD88-7AA1-4C99-A736-864B539BEC01</Project>
       <Name>SendFileService</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SendFileService\SendFileService.csproj">
+      <Project>{ed9f82c6-77d5-48f0-a28e-e2177e3951e1}</Project>
+      <Name>SendFileService</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -317,4 +384,465 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\System.Data.DataSet.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WeatherRef\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WeatherRef\WeatherWebService.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.webxml.com.cn/WebServices/WeatherWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WeatherRef\</RelPath>
+      <UpdateFromURL>http://www.webxml.com.cn/WebServices/WeatherWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Complents_cn_com_webxml_www_WeatherWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WeatherRef\WeatherWebService.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\away .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnAdd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnState.DownBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnState.MouseBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\busy .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imoffline .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invisible .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pass_keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accecpt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio_menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audio_mic_disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgroundframe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnDownBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnMouseBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btnNormlBack.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_login_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_login_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_login_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_hightlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_pushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_tick_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_tick_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkbox_tick_pushed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default_head.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inputbox.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inputbox_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\list_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_inputbtn_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_inputbtn_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_inputbtn_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mic_disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mic_enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mima_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mima_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\netstate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picBackgroundImage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_disable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound_enable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuce_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zhuce_press.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_22.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_23.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_24.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_26.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_27.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_28.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_30.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_0.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b_13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\27.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\36.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\39.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\46.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\47.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\53.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\56.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\62.png" />
+  </ItemGroup>
+  <ItemGroup />
 </Project>

@@ -9,18 +9,13 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
-using System.Threading;
 using System.IO;
-using System.Runtime.InteropServices;
-using System.Collections.Generic;
-using System.Collections;
 
 using CCWin;
 using CCWin.SkinControl;
 using CCWin.SkinClass;
 using Chat;
 using Helper;
-using Complents;
 using Complents.ChatComp;
 
 
@@ -83,7 +78,7 @@ namespace ChatClientUI
 				this.count++;
 				this.BeginInvoke(new MethodInvoker(delegate()
 				{
-				    this.loginUserPanelMain.RemoveLoginUser(userId);
+				    //this.loginUserPanelMain.RemoveLoginUser(userId);
 				    this.crtMainForm.LoadUser();
 				    this.crtMainForm.ShowMainForm();
 					this.Login();
@@ -101,25 +96,25 @@ namespace ChatClientUI
 		{
 			try
 			{
-				System.Windows.Forms.Control.ControlCollection userList = this.loginUserPanelMain.GetLoginUser();
-				if (userList.Count == 0)
-				{
-					this.notifyIconMain.Visible = false;
-					this.Hide();
-					return;
-				}
-				LoginUserControl control = userList[0] as LoginUserControl;
-				if (!control.IsCheck)
-				{
-					this.loginUserPanelMain.RemoveLoginUser(control.UserId);
-					this.Login();
-					return;
-				}
-				string userId = control.UserId;
-				string password = control.PassWord;
-				this.crtMainForm = new MainForm();
-				this.crtMainForm.LoginFrm = this;
-				this.crtMainForm.Login(control.UserId, control.PassWord);
+    //            System.Windows.Forms.Control.ControlCollection userList = this.loginUserPanelMain.GetLoginUser();
+    //            if (userList.Count == 0)
+				//{
+				//	this.notifyIconMain.Visible = false;
+				//	this.Hide();
+				//	return;
+				//}
+				//LoginUserControl control = userList[0] as LoginUserControl;
+				//if (!control.IsCheck)
+				//{
+				//	//this.loginUserPanelMain.RemoveLoginUser(control.UserId);
+				//	this.Login();
+				//	return;
+				//}
+				//string userId = control.UserId;
+				//string password = control.PassWord;
+				//this.crtMainForm = new MainForm();
+				//this.crtMainForm.LoginFrm = this;
+				//this.crtMainForm.Login(control.UserId, control.PassWord);
 			}
 			catch(Exception ex)
 			{
@@ -279,7 +274,7 @@ namespace ChatClientUI
 				this.loginUserPanelMain.LayOutItem();
 				this.panelList.Visible = true;
 			}
-			this.loginUserPanelMain.EmptyControl += new EmptyControlsHandler(LoginForm_EmptyControl);
+			//this.loginUserPanelMain.EmptyControl += new EmptyControlsHandler(LoginForm_EmptyControl);
 		}
 
 		void LoginForm_EmptyControl(object sender, EmptyControlsEventArgs args)
@@ -347,8 +342,8 @@ namespace ChatClientUI
 
 		void loginUserC_UserControlRemove(object sender, UserControlRemoveEventArgs args)
 		{
-			LoginUserControl l = sender as LoginUserControl;
-			this.loginUserPanelMain.RemoveLoginUser(l.UserId);
+			//LoginUserControl l = sender as LoginUserControl;
+			//this.loginUserPanelMain.RemoveLoginUser(l.UserId);
 		}
 		
 		void LoginFormFormClosing(object sender, FormClosingEventArgs e)
@@ -360,5 +355,15 @@ namespace ChatClientUI
 				this.Hide();
 			}
 		}
-	}
+
+        private void panelItem_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void btnUserId_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

@@ -10,9 +10,11 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Collections;
+using System.Collections.Generic;
 using System.Threading;
 
 using Helper;
+using Complents.P2SPService.Msgs;
 
 namespace Complents.P2SPService
 {
@@ -23,13 +25,16 @@ namespace Complents.P2SPService
 	{
 		#region member data
 		private bool isStart = false;
+        private int port = -1;
 		private TcpListener listener;
-		private Hashtable waitMap = new Hashtable();//[TransId.ToString(), BaseTrans]
+        private Thread listenThread;
+		private Hashtable waitMap = new Hashtable();//[MsgId.ToString(), BaseMsg]
+        private Hashtable maxRecve = new Hashtable();//[MsgId.getClientId(), MsgId.getSeqno()]
 		private static object waitLocker = new object();
 		private static object sendLocker = new object();
 		private static object recveLocker = new object();
-		private Queue recveQueue = new Queue();
-		private Queue sendQueue = new Queue();
+		private Queue<BaseMsg> recveQueue = new Queue<BaseMsg>();
+		private Queue<BaseMsg> sendQueue = new Queue<BaseMsg>();
 		
 		#endregion
 		
@@ -53,13 +58,14 @@ namespace Complents.P2SPService
 			this.P2SPAccept += new P2SPAcceptHandler(P2SPClient_P2SPAccept);
 			this.P2SPStart += new P2SPStartHandler(P2SPClient_P2SPStart);
 			this.P2SPStop += new P2SPStopHandler(P2SPClient_P2SPStop);
+            this.P2SPRecve += new P2SPRecveHandler(P2SPClient_P2SPRecve);
 		}
-		
-		#endregion
-		
-		#region base class virtual function
-		
-		private void OnP2SPAccept(P2SPAcceptEventArgs e)
+
+        #endregion
+
+        #region base class virtual function
+
+        private void OnP2SPAccept(P2SPAcceptEventArgs e)
 		{
 			if (this.P2SPAccept != null)
 			{
@@ -74,8 +80,16 @@ namespace Complents.P2SPService
 				this.P2SPStart(this, e);
 			}
 		}
-		
-		protected virtual void OnP2SPStop(P2SPStopEventArgs e)
+
+        private void OnP2SPRecve(P2SPRecveEventArgs e)
+        {
+            if (this.P2SPRecve != null)
+            {
+                this.P2SPRecve(this, e);
+            }
+        }
+
+        private void OnP2SPStop(P2SPStopEventArgs e)
 		{
 			if (this.P2SPStop != null)
 			{
@@ -114,15 +128,7 @@ namespace Complents.P2SPService
 				this.P2SPDisConnect(this, e);
 			}
 		}
-		
-		protected virtual void OnP2SPRecve(P2SPRecveEventArgs e)
-		{
-			if (this.P2SPRecve != null)
-			{
-				this.P2SPRecve(this, e);
-			}
-		}
-		
+			
 		protected virtual void OnP2SPSend(P2SPSendEventArgs e)
 		{
 			if (this.P2SPSend != null)
@@ -135,16 +141,21 @@ namespace Complents.P2SPService
 		
 		#region fire event function
 		
-		void P2SPClient_P2SPStop(object sender, P2SPStopEventArgs args)
+		private void P2SPClient_P2SPStop(object sender, P2SPStopEventArgs args)
 		{
-			
-		}
+            this.isStart = false;
+            this.listener.Stop();
+            this.listener.Server.Close();
+            this.listenThread.Abort();
+        }
 
-		void P2SPClient_P2SPStart(object sender, P2SPStartEventArgs args)
+        private void P2SPClient_P2SPStart(object sender, P2SPStartEventArgs args)
 		{
 			try
 			{
-				IPAddress[] ip = Dns.GetHostAddresses(Dns.GetHostName());
+                this.isStart = true;
+                this.listenThread = Thread.CurrentThread;
+                IPAddress[] ip = Dns.GetHostAddresses(Dns.GetHostName());
 				this.listener = new TcpListener(ip[0] ,args.Port);
 				this.listener.Server.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);
 				this.listener.Start();
@@ -158,48 +169,65 @@ namespace Complents.P2SPService
 			}
 			catch(Exception ex)
 			{
-				AutoLog.Instance.Error(null, ex);
+                this.OnP2SPListenerStop(new P2SPListenerStopEventArgs());
+                LogHelper.Error(null, ex);
 			}
 		}
 
-		void P2SPClient_P2SPAccept(object sender, P2SPAcceptEventArgs args)
+        private void P2SPClient_P2SPAccept(object sender, P2SPAcceptEventArgs args)
 		{
 			this.Recve(args.Client);
 		}
-		
-		#endregion
-		
-		#region public interfaces
-		
+
+        private void P2SPClient_P2SPRecve(object sender, P2SPRecveEventArgs args)
+        {
+            BaseMsg msg = args.Msg;
+            if (!isRecveBefore(msg))
+            {
+                msg.OnMsgProcess(this);
+            }
+        }
+
+        #endregion
+
+        #region public interfaces
+
         /// <summary>
         /// start to listen the specify port
         /// </summary>
         /// <param name="_port"></param>
-		public void Start(int _port)
+        public void Start(int _port)
 		{
+            this.port = _port;
 			AsyncHelper.AsyncHandler ah = new AsyncHelper.AsyncHandler(SendMsgs);
 			ah.BeginInvoke(null, null);
 			
 			ah = new AsyncHelper.AsyncHandler(RecveMsgs);
 			ah.BeginInvoke(null, null);
-			
-			this.OnP2SPStart(new P2SPStartEventArgs(_port));
+
+            ah = new AsyncHelper.AsyncHandler(StartCb);
+            ah.BeginInvoke(null, null);
 		}
-		
+
+        private void StartCb()
+        {
+            this.OnP2SPStart(new P2SPStartEventArgs(this.port));
+        }
+
         /// <summary>
         /// stop to listen
         /// </summary>
-		public void Stop()
+        public void Stop()
 		{
-			this.isStart = false;
-			this.listener.Stop();
-			this.OnP2SPStop(new P2SPStopEventArgs());
+            AsyncHelper.AsyncHandler ah = new AsyncHelper.AsyncHandler(StopCb);
+            ah.BeginInvoke(null, null);
 		}
+
+        private void StopCb()
+        {
+            this.OnP2SPStop(new P2SPStopEventArgs());
+        }
 		
-        /// <summary>
-        /// connect to the remoteEP
-        /// </summary>
-        /// <param name="_remoteEP"></param>
 		public void Connect(IPEndPoint _remoteEP)
 		{
 			TcpClient client = new TcpClient(AddressFamily.InterNetwork);
@@ -280,6 +308,26 @@ namespace Complents.P2SPService
             msg.RecvAck();
         }
 
+        /// <summary>
+        /// check msg is resend or not
+        /// </summary>
+        /// <param name="_msg"></param>
+        /// <returns></returns>
+        public bool isRecveBefore(BaseMsg _msg)
+        {
+            MsgId msgId = _msg.MsgId;
+            string clientId = msgId.ClientId;
+            if (this.maxRecve.Contains(clientId))
+            {
+                long seqno = (long)this.maxRecve[clientId];
+                return msgId.Seqno > seqno;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         #endregion
 
         #region private interfaces
@@ -308,23 +356,8 @@ namespace Complents.P2SPService
 					}
 					else
 					{
-						BaseMsg msg = recveQueue.Dequeue() as BaseMsg;
+                        BaseMsg msg = recveQueue.Dequeue();
                         this.OnP2SPRecve(new P2SPRecveEventArgs(msg));
-						//if (msg.Type == MsgType.eAck)
-						//{
-						//	this.RecveAck(msg);
-						//}
-						//else if (msg.Type == MsgType.eResp)
-						//{
-						//	this.SendAck(msg);
-						//	this.RecveResp(msg as RespMsg);
-                        //  this.OnP2SPRecve(new P2SPRecveEventArgs(msg));
-                        //}
-						//else
-						//{
-						//	this.SendAck(msg);
-                        //  this.OnP2SPRecve(new P2SPRecveEventArgs(msg));
-                        //}
 					}
 				}
 			}
@@ -362,12 +395,12 @@ namespace Complents.P2SPService
 							}
 							else
 							{
-								AutoLog.Instance.Fatal("can not to write");
+								LogHelper.Fatal("can not to write");
 							}
 						}
 						catch(Exception ex)
 						{
-							AutoLog.Instance.Error("disconnect", ex);
+                            LogHelper.Error("disconnect", ex);
 							this.OnP2SPDisConnect(new P2SPDisConnectEventArgs(client));
 						}
 					}
@@ -424,14 +457,14 @@ namespace Complents.P2SPService
 						}
 						else
 						{
-							AutoLog.Instance.Fatal("can not to read");
+							LogHelper.Fatal("can not to read");
 						}
 					}
 				}
 			}
 			catch(Exception ex)
 			{
-				AutoLog.Instance.Error("disconnect", ex);
+                LogHelper.Error("disconnect", ex);
 				this.OnP2SPDisConnect(new P2SPDisConnectEventArgs(_client));
 			}
 		}

@@ -99,6 +99,10 @@
       <Project>01EFFD88-7AA1-4C99-A736-864B539BEC01</Project>
       <Name>SendFileService</Name>
     </ProjectReference>
+    <ProjectReference Include="..\SendFileService\SendFileService.csproj">
+      <Project>{ed9f82c6-77d5-48f0-a28e-e2177e3951e1}</Project>
+      <Name>SendFileService</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Trans\Trans.csproj">
       <Project>{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}</Project>
       <Name>Trans</Name>

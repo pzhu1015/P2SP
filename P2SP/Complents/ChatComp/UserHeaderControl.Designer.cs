@@ -63,7 +63,7 @@ namespace Complents.ChatComp
 									| System.Windows.Forms.AnchorStyles.Left) 
 									| System.Windows.Forms.AnchorStyles.Right)));
 			this.headImage.BackColor = System.Drawing.Color.Transparent;
-			this.headImage.BackgroundImage = global::Complents.Resource.default_head;
+			this.headImage.BackgroundImage = global::Complents.ChatCompResource.default_head;
 			this.headImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
 			this.headImage.ControlState = CCWin.SkinClass.ControlState.Normal;
 			this.headImage.Cursor = System.Windows.Forms.Cursors.Hand;

@@ -142,7 +142,7 @@ namespace Complents.ChatComp
 				this.btnAccecpt.Visible = false;
 			}
 			this.btnCancel.Text = "挂断";
-			this.btnCancel.Image = Complents.Resource.hang;
+			this.btnCancel.Image = Complents.ChatCompResource.hang;
 			this.lblCommon.Visible = false;
 			this.panelSetting.Visible = true;
 		}
@@ -152,11 +152,11 @@ namespace Complents.ChatComp
 		{
 			if (this.isVoiceDisable)
 			{
-				this.btnVoice.Image = Complents.Resource.sound_disable;
+				this.btnVoice.Image = Complents.ChatCompResource.sound_disable;
 			}
 			else
 			{
-				this.btnVoice.Image = Complents.Resource.sound_enable;
+				this.btnVoice.Image = Complents.ChatCompResource.sound_enable;
 			}
 			this.isVoiceDisable = !this.isVoiceDisable;
 		}
@@ -166,11 +166,11 @@ namespace Complents.ChatComp
 		{
 			if (this.isMicDisable)
 			{
-				this.btnMic.Image = Complents.Resource.mic_disable;
+				this.btnMic.Image = Complents.ChatCompResource.mic_disable;
 			}
 			else
 			{
-				this.btnMic.Image = Complents.Resource.mic_enable;
+				this.btnMic.Image = Complents.ChatCompResource.mic_enable;
 			}
 			this.isMicDisable = !this.isMicDisable;
 		}

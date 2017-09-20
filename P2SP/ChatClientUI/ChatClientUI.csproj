@@ -245,16 +245,12 @@
       <Name>Chat</Name>
     </ProjectReference>
     <ProjectReference Include="..\Complents\Complents.csproj">
-      <Project>{46253A9E-D116-48B7-8A5E-C3A010FE90EE}</Project>
+      <Project>{46253a9e-d116-48b7-8a5e-c3a010fe90ee}</Project>
       <Name>Complents</Name>
     </ProjectReference>
     <ProjectReference Include="..\Helper\Helper.csproj">
       <Project>{189858F4-6538-4B8B-A22B-A9F197D2D75C}</Project>
       <Name>Helper</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\JimoDbStudio\JimoDbStudio.csproj">
-      <Project>{D73FC0C6-5D6E-4CB1-9B4B-CBE2A971527B}</Project>
-      <Name>JimoDbStudio</Name>
     </ProjectReference>
     <ProjectReference Include="..\P2PService\P2PService.csproj">
       <Project>{3AE05B80-8177-4E8C-A889-03C788D3A107}</Project>
@@ -286,5 +282,8 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
 </Project>

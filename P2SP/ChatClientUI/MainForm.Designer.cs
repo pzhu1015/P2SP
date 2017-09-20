@@ -113,17 +113,17 @@ namespace ChatClientUI
             this.chatListBoxBuddy.Dock = System.Windows.Forms.DockStyle.Fill;
             this.chatListBoxBuddy.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.chatListBoxBuddy.ForeColor = System.Drawing.Color.Black;
-            chatListItem4.Bounds = new System.Drawing.Rectangle(0, 1, 304, 25);
+            chatListItem4.Bounds = new System.Drawing.Rectangle(0, 1, 334, 25);
             chatListItem4.IsTwinkleHide = false;
             chatListItem4.OwnerChatListBox = this.chatListBoxBuddy;
             chatListItem4.Text = "我的好友";
             chatListItem4.TwinkleSubItemNumber = 0;
-            chatListItem5.Bounds = new System.Drawing.Rectangle(0, 27, 304, 25);
+            chatListItem5.Bounds = new System.Drawing.Rectangle(0, 27, 334, 25);
             chatListItem5.IsTwinkleHide = false;
             chatListItem5.OwnerChatListBox = this.chatListBoxBuddy;
             chatListItem5.Text = "陌生人";
             chatListItem5.TwinkleSubItemNumber = 0;
-            chatListItem6.Bounds = new System.Drawing.Rectangle(0, 53, 304, 25);
+            chatListItem6.Bounds = new System.Drawing.Rectangle(0, 53, 334, 25);
             chatListItem6.IsTwinkleHide = false;
             chatListItem6.OwnerChatListBox = this.chatListBoxBuddy;
             chatListItem6.Text = "黑名单";
@@ -136,7 +136,7 @@ namespace ChatClientUI
             this.chatListBoxBuddy.Location = new System.Drawing.Point(0, 0);
             this.chatListBoxBuddy.Margin = new System.Windows.Forms.Padding(0);
             this.chatListBoxBuddy.Name = "chatListBoxBuddy";
-            this.chatListBoxBuddy.Size = new System.Drawing.Size(304, 533);
+            this.chatListBoxBuddy.Size = new System.Drawing.Size(334, 544);
             this.chatListBoxBuddy.SubItemMenu = null;
             this.chatListBoxBuddy.TabIndex = 131;
             this.chatListBoxBuddy.DoubleClickSubItem += new CCWin.SkinControl.ChatListBox.ChatListEventHandler(this.ChatListBoxBuddyDoubleClickSubItem);
@@ -456,11 +456,11 @@ namespace ChatClientUI
             this.tsBottomMenuOne.ItemRadius = 3;
             this.tsBottomMenuOne.ItemRadiusStyle = CCWin.SkinClass.RoundStyle.None;
             this.tsBottomMenuOne.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-            this.tsBottomMenuOne.Location = new System.Drawing.Point(1, 628);
+            this.tsBottomMenuOne.Location = new System.Drawing.Point(1, 639);
             this.tsBottomMenuOne.Name = "tsBottomMenuOne";
             this.tsBottomMenuOne.Padding = new System.Windows.Forms.Padding(5, 0, 1, 0);
             this.tsBottomMenuOne.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.tsBottomMenuOne.Size = new System.Drawing.Size(312, 24);
+            this.tsBottomMenuOne.Size = new System.Drawing.Size(342, 24);
             this.tsBottomMenuOne.TabIndex = 130;
             this.tsBottomMenuOne.Text = "skinToolStrip2";
             this.tsBottomMenuOne.TitleAnamorphosis = false;
@@ -512,11 +512,11 @@ namespace ChatClientUI
             this.tsbtnSysSetting,
             this.toolStripButton2,
             this.toolStripButton19});
-            this.tsBottomMenuTwo.Location = new System.Drawing.Point(1, 652);
+            this.tsBottomMenuTwo.Location = new System.Drawing.Point(1, 663);
             this.tsBottomMenuTwo.Name = "tsBottomMenuTwo";
             this.tsBottomMenuTwo.Padding = new System.Windows.Forms.Padding(5, 0, 1, 0);
             this.tsBottomMenuTwo.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.tsBottomMenuTwo.Size = new System.Drawing.Size(312, 24);
+            this.tsBottomMenuTwo.Size = new System.Drawing.Size(342, 24);
             this.tsBottomMenuTwo.TabIndex = 129;
             this.tsBottomMenuTwo.Text = "skinToolStrip2";
             this.tsBottomMenuTwo.TitleAnamorphosis = false;
@@ -544,31 +544,31 @@ namespace ChatClientUI
             // 检测升级ToolStripMenuItem
             // 
             this.检测升级ToolStripMenuItem.Name = "检测升级ToolStripMenuItem";
-            this.检测升级ToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.检测升级ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.检测升级ToolStripMenuItem.Text = "软件升级";
             // 
             // 帮助ToolStripMenuItem
             // 
             this.帮助ToolStripMenuItem.Name = "帮助ToolStripMenuItem";
-            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.帮助ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.帮助ToolStripMenuItem.Text = "帮助";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(178, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(141, 6);
             // 
             // 修改密码ToolStripMenuItem
             // 
             this.修改密码ToolStripMenuItem.Name = "修改密码ToolStripMenuItem";
-            this.修改密码ToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
+            this.修改密码ToolStripMenuItem.Size = new System.Drawing.Size(144, 26);
             this.修改密码ToolStripMenuItem.Text = "修改密码";
             // 
             // tsmiExitMain
             // 
             this.tsmiExitMain.Name = "tsmiExitMain";
-            this.tsmiExitMain.Size = new System.Drawing.Size(181, 26);
+            this.tsmiExitMain.Size = new System.Drawing.Size(144, 26);
             this.tsmiExitMain.Text = "退出";
             this.tsmiExitMain.Click += new System.EventHandler(this.TsmiExitClick);
             // 
@@ -735,7 +735,7 @@ namespace ChatClientUI
             this.skinTabControl1.Padding = new System.Drawing.Point(0, 0);
             this.skinTabControl1.PageColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
             this.skinTabControl1.SelectedIndex = 0;
-            this.skinTabControl1.Size = new System.Drawing.Size(312, 576);
+            this.skinTabControl1.Size = new System.Drawing.Size(342, 587);
             this.skinTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.skinTabControl1.TabIndex = 132;
             // 
@@ -748,7 +748,7 @@ namespace ChatClientUI
             this.tabPage1.Location = new System.Drawing.Point(4, 39);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(304, 533);
+            this.tabPage1.Size = new System.Drawing.Size(334, 544);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "好友";
             this.tabPage1.ToolTipText = "我的好友";
@@ -808,7 +808,7 @@ namespace ChatClientUI
             this.tabPage2.Location = new System.Drawing.Point(4, 39);
             this.tabPage2.Margin = new System.Windows.Forms.Padding(0);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Size = new System.Drawing.Size(292, 446);
+            this.tabPage2.Size = new System.Drawing.Size(334, 540);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "群组";
             // 
@@ -858,7 +858,7 @@ namespace ChatClientUI
             this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(247)))), ((int)(((byte)(250)))));
             this.tabPage3.Location = new System.Drawing.Point(4, 39);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(292, 446);
+            this.tabPage3.Size = new System.Drawing.Size(334, 540);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "历史";
             // 
@@ -892,10 +892,11 @@ namespace ChatClientUI
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(97)))), ((int)(((byte)(159)))), ((int)(((byte)(215)))));
             this.BackLayout = false;
             this.BackPalace = global::ChatClientUI.ResourceForm.BackPalace;
+            this.BorderRectangle = new System.Drawing.Rectangle(1, 1, 1, 1);
             this.BorderWidth = 1;
             this.CaptionFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.CaptionHeight = 100;
-            this.ClientSize = new System.Drawing.Size(314, 677);
+            this.ClientSize = new System.Drawing.Size(344, 688);
             this.CloseDownBack = global::ChatClientUI.ResourceForm.btn_close_down;
             this.CloseMouseBack = global::ChatClientUI.ResourceForm.btn_close_highlight;
             this.CloseNormlBack = global::ChatClientUI.ResourceForm.btn_close_disable;
@@ -910,9 +911,10 @@ namespace ChatClientUI
             this.Controls.Add(this.skinToolStrip4);
             this.EffectWidth = 4;
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(400, 800);
             this.MiniDownBack = global::ChatClientUI.ResourceForm.btn_mini_down;
             this.MiniMouseBack = global::ChatClientUI.ResourceForm.btn_mini_highlight;
-            this.MinimumSize = new System.Drawing.Size(250, 400);
+            this.MinimumSize = new System.Drawing.Size(300, 600);
             this.MiniNormlBack = global::ChatClientUI.ResourceForm.btn_mini_normal;
             this.Name = "MainForm";
             this.Radius = 1;
