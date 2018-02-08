@@ -51,9 +51,6 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Helper">
-      <HintPath>..\Helper\bin\Debug\Helper.dll</HintPath>
-    </Reference>
     <Reference Include="SkinForm">
       <HintPath>..\Helper\Dll\SkinForm.dll</HintPath>
     </Reference>
@@ -242,6 +239,10 @@
     <ProjectReference Include="..\Complents\Complents.csproj">
       <Project>{46253a9e-d116-48b7-8a5e-c3a010fe90ee}</Project>
       <Name>Complents</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{189858f4-6538-4b8b-a22b-a9f197d2d75c}</Project>
+      <Name>Helper</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
