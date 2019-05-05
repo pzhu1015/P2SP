@@ -53,9 +53,9 @@ namespace ChatClientUI
             this.tsmiShow = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiExit = new System.Windows.Forms.ToolStripMenuItem();
             this.panelList = new System.Windows.Forms.Panel();
-            this.loginUserPanelMain = new Complents.ChatComp.LoginUserPanel();
+            this.loginUserPanelMain = new UserComponents.ChatComp.LoginUserPanel();
             this.panelItem = new System.Windows.Forms.Panel();
-            this.loginItem = new Complents.ChatComp.LoginUserControl();
+            this.loginItem = new UserComponents.ChatComp.LoginUserControl();
             ((System.ComponentModel.ISupportInitialize)(this.imgLoadding)).BeginInit();
             this.panelId.SuspendLayout();
             this.menueStripMain.SuspendLayout();
@@ -424,8 +424,8 @@ namespace ChatClientUI
 		private CCWin.SkinControl.SkinButtom btnOK;
 		private CCWin.SkinControl.SkinButtom btnCancel;
 		private System.Windows.Forms.Panel panelItem;
-		private Complents.ChatComp.LoginUserPanel loginUserPanelMain;
-		private Complents.ChatComp.LoginUserControl loginItem;
+		private UserComponents.ChatComp.LoginUserPanel loginUserPanelMain;
+		private UserComponents.ChatComp.LoginUserControl loginItem;
 		private CCWin.SkinControl.SkinContextMenuStrip menueStripMain;
 		private System.Windows.Forms.ToolStripMenuItem tsmiExit;
 		private System.Windows.Forms.ToolStripMenuItem tsmiShow;

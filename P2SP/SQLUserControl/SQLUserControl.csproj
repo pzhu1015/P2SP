@@ -1,0 +1,354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6C2BC445-6D3D-44C9-85EF-FAFF93A5AA61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SQLUserControl</RootNamespace>
+    <AssemblyName>SQLUserControl</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.CodeParser.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Pdf.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v15.2.Core, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraRichEdit.v15.2, Version=15.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Helper\Dll\Logs\4.0\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DesignTablePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DesignTablePage.Designer.cs">
+      <DependentUpon>DesignTablePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SQLClientHelper.cs" />
+    <Compile Include="NewSelectPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewSelectPage.Designer.cs">
+      <DependentUpon>NewSelectPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenTablePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenTablePage.Designer.cs">
+      <DependentUpon>OpenTablePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenViewPage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OpenViewPage.Designer.cs">
+      <DependentUpon>OpenViewPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SaveSelectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveSelectForm.Designer.cs">
+      <DependentUpon>SaveSelectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SelectListView.Designer.cs">
+      <DependentUpon>SelectListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableListView.Designer.cs">
+      <DependentUpon>TableListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewListView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewListView.Designer.cs">
+      <DependentUpon>ViewListView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DesignTablePage.resx">
+      <DependentUpon>DesignTablePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSelectPage.resx">
+      <DependentUpon>NewSelectPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenTablePage.resx">
+      <DependentUpon>OpenTablePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenViewPage.resx">
+      <DependentUpon>OpenViewPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SaveSelectForm.resx">
+      <DependentUpon>SaveSelectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectListView.resx">
+      <DependentUpon>SelectListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableListView.resx">
+      <DependentUpon>TableListView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewListView.resx">
+      <DependentUpon>ViewListView.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\add_item_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\command_line_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CONNECT_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_close_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_open_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_item_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design_select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\design_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\event_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EVENT_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\format_sql_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\function_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FUNCTION_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\import_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insert_item_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\load_select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open_view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\past_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\run_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save_as_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SELECT_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select_table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server_close_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\server_open_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TABLE_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USER_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\view_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VIEW_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev_page_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\first_page_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\last_page_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_page_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apply_change_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\page_setting_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancle_change_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_record_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_update_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_record_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{189858f4-6538-4b8b-a22b-a9f197d2d75c}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SQLDAL\SQLDAL.csproj">
+      <Project>{eb9fd50b-500e-4f51-bcb8-3d866bb54b63}</Project>
+      <Name>SQLDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserComponents\UserComponents.csproj">
+      <Project>{46253A9E-D116-48B7-8A5E-C3A010FE90EE}</Project>
+      <Name>UserComponents</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

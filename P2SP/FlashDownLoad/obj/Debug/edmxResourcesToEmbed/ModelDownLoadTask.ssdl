@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="FDownLoadModel.Store" Provider="System.Data.SQLite.EF6" ProviderManifestToken="data source=E:\pzh\CSharpSource\P2SP\FlashDownLoad\AppData\FDownLoad.db" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TableTask">
+    <Key>
+      <PropertyRef Name="TaskId" />
+    </Key>
+    <Property Name="TaskId" Type="integer" Nullable="false" />
+    <Property Name="Url" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="FullName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="FileSize" Type="integer" Nullable="false" />
+    <Property Name="TempFullName" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="CreateTime" Type="datetime" Nullable="false" />
+    <Property Name="FinishTime" Type="datetime" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="Threads" Type="smallint" Nullable="false" />
+    <Property Name="Directory" Type="nvarchar" MaxLength="2147483647" Nullable="false" />
+    <Property Name="IsTrashed" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="FDownLoadModelStoreContainer">
+    <EntitySet Name="TableTask" EntityType="Self.TableTask" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

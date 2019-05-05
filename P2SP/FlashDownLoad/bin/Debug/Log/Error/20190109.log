@@ -1,0 +1,86 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-01-09 22:45:17,735                                   
+【线程编号】[10]                                   
+【执行时间】[4008]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-01-09 22:45:17,783                                   
+【线程编号】[7]                                   
+【执行时间】[4056]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-01-09 22:45:27,895                                   
+【线程编号】[15]                                   
+【执行时间】[14168]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】181                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.ObjectDisposedException: 无法访问已关闭的文件。
+   在 System.IO.__Error.FileNotOpen()
+   在 System.IO.FileStream.Seek(Int64 offset, SeekOrigin origin)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.StartOneThread(Object state) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 160                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-01-09 22:45:36,757                                   
+【线程编号】[15]                                   
+【执行时间】[23031]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】181                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.ObjectDisposedException: 无法访问已关闭的文件。
+   在 System.IO.__Error.FileNotOpen()
+   在 System.IO.FileStream.Seek(Int64 offset, SeekOrigin origin)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.StartOneThread(Object state) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 160                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-01-09 22:45:50,679                                   
+【线程编号】[15]                                   
+【执行时间】[36952]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】181                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.ObjectDisposedException: 无法访问已关闭的文件。
+   在 System.IO.__Error.FileNotOpen()
+   在 System.IO.FileStream.Seek(Int64 offset, SeekOrigin origin)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.StartOneThread(Object state) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 160                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2019-01-09 22:46:01,781                                   
+【线程编号】[15]                                   
+【执行时间】[48054]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】181                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.ObjectDisposedException: 无法访问已关闭的文件。
+   在 System.IO.__Error.FileNotOpen()
+   在 System.IO.FileStream.Seek(Int64 offset, SeekOrigin origin)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.StartOneThread(Object state) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 160                                   
+【错误详情】

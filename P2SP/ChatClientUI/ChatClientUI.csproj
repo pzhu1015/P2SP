@@ -7,7 +7,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>ChatClientUI</RootNamespace>
     <AssemblyName>ChatClientUI</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\Administrator\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
     <ApplicationIcon>Icon\logo_xp_32.ico</ApplicationIcon>
@@ -39,6 +39,7 @@
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -64,6 +65,9 @@
     <Optimize>True</Optimize>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
@@ -244,10 +248,6 @@
       <Project>{98EFF8D5-982C-4399-B346-CEAAA8114CA4}</Project>
       <Name>Chat</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Complents\Complents.csproj">
-      <Project>{46253a9e-d116-48b7-8a5e-c3a010fe90ee}</Project>
-      <Name>Complents</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Helper\Helper.csproj">
       <Project>{189858F4-6538-4B8B-A22B-A9F197D2D75C}</Project>
       <Name>Helper</Name>
@@ -267,6 +267,10 @@
     <ProjectReference Include="..\Trans\Trans.csproj">
       <Project>{4ADFC1C2-D746-429B-878D-60FA1F4F00D4}</Project>
       <Name>Trans</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserComponents\UserComponents.csproj">
+      <Project>{46253a9e-d116-48b7-8a5e-c3a010fe90ee}</Project>
+      <Name>UserComponents</Name>
     </ProjectReference>
     <ProjectReference Include="..\Weather\Weather.csproj">
       <Project>{4E2F1A2B-8D5B-4C37-A9EF-2ED11F21C402}</Project>

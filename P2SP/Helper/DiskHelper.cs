@@ -35,32 +35,26 @@ namespace Helper
 			return Directory.Exists(dirName);
 		}
 		
-		public static bool AllocateSpace(string filename, long length)
+		public static FileStream AllocateSpace(string filename, long length)
 		{
 			FileStream fs = null;
 			try
 			{
 				fs = new FileStream(filename, FileMode.Create, FileAccess.Write);
-				fs.Seek(length-1, SeekOrigin.Begin);
-				fs.WriteByte(new byte());
+                fs.SetLength(length);
 				
 			}
 			catch(Exception ex)
 			{
-				System.Diagnostics.StackTrace st = new System.Diagnostics.StackTrace(new System.Diagnostics.StackFrame(true));
-				System.Diagnostics.StackFrame sf = st.GetFrame(0);
-				DebugHelper.Error(ex, sf);
-				return false;
+                LogHelper.logerror.Error(ex);
+                if (fs != null)
+                {
+                    fs.Flush();
+                    fs.Close();
+                }
+                return null;
 			}
-			finally
-			{
-				if (fs != null)
-				{
-					fs.Flush();
-					fs.Close();
-				}
-			}
-			return true;
+			return fs;
 		}
 		
 		public static bool CheckDiskSpace(long size, string dirName)
@@ -146,5 +140,43 @@ namespace Helper
                 return false;
             }
         }
+
+        /// 获取指定驱动器的空间总大小(单位为GB)  
+        /// </summary>  
+        /// <param name=”str_HardDiskName”>只需输入代表驱动器的字母即可 </param>  
+        /// <returns> </returns>  
+        public static long GetHardDiskSpace(string str_HardDiskName)
+        {
+            long totalSize = new long();
+            System.IO.DriveInfo[] drives = System.IO.DriveInfo.GetDrives();
+            foreach (System.IO.DriveInfo drive in drives)
+            {
+                if (drive.Name == str_HardDiskName)
+                {
+                    totalSize = drive.TotalSize;
+                }
+            }
+            return totalSize;
+        }
+
+        /// <summary>  
+        /// 获取指定驱动器的剩余空间总大小(单位为GB)  
+        /// </summary>  
+        /// <param name=”str_HardDiskName”>只需输入代表驱动器的字母即可 </param>  
+        /// <returns> </returns>  
+        public static long GetHardDiskFreeSpace(string str_HardDiskName)
+        {
+            long freeSpace = new long();
+            System.IO.DriveInfo[] drives = System.IO.DriveInfo.GetDrives();
+            foreach (System.IO.DriveInfo drive in drives)
+            {
+                if (drive.Name == str_HardDiskName)
+                {
+                    freeSpace = drive.TotalFreeSpace;
+                }
+            }
+            return freeSpace;
+        }
+
 	}
 }

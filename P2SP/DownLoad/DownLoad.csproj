@@ -7,7 +7,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>DownLoad</RootNamespace>
     <AssemblyName>DownLoad</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <SourceAnalysisOverrideSettingsFile>C:\Documents and Settings\Administrator\Application Data\ICSharpCode/SharpDevelop3.0\Settings.SourceAnalysis</SourceAnalysisOverrideSettingsFile>
     <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
@@ -62,6 +62,9 @@
     <Optimize>True</Optimize>
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
     <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
   <ItemGroup>
@@ -174,28 +177,24 @@
     <None Include="Icon\Status\Thumbs.db" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Complents\Complents.csproj">
-      <Project>{46253A9E-D116-48B7-8A5E-C3A010FE90EE}</Project>
-      <Name>Complents</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DownLoadService\DownLoadService.csproj">
-      <Project>{D58CC8E2-2F29-4BC7-A4E4-E817D59E5906}</Project>
-      <Name>DownLoadService</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ExtendControl\ExtendControl.csproj">
-      <Project>{D94321AC-097C-4046-9F08-93B809B92818}</Project>
-      <Name>ExtendControl</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\Helper\Helper.csproj">
-      <Project>{189858F4-6538-4B8B-A22B-A9F197D2D75C}</Project>
-      <Name>Helper</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DownLoadService\DownLoadService.csproj">
+      <Project>{d58cc8e2-2f29-4bc7-a4e4-e817d59e5906}</Project>
+      <Name>DownLoadService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ExtendControl\ExtendControl.csproj">
+      <Project>{d94321ac-097c-4046-9f08-93b809b92818}</Project>
+      <Name>ExtendControl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Helper\Helper.csproj">
+      <Project>{189858f4-6538-4b8b-a22b-a9f197d2d75c}</Project>
+      <Name>Helper</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>

@@ -9,6 +9,7 @@
 using System;
 using System.Net;
 using System.Net.Security;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Helper
@@ -97,5 +98,31 @@ namespace Helper
                 System.GC.Collect();
             }
         }
-	}
+        public static void AddRange(HttpWebRequest request, long start, long end)
+        {
+            try
+            {
+                Type type = typeof(HttpWebRequest);
+                object[] args = new object[3];
+                args[0] = "bytes";
+                args[1] = start.ToString();
+                args[2] = end.ToString();
+                MethodInfo[] methodInfo = type.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic);
+                foreach (MethodInfo info in methodInfo)
+                {
+                    if (info.Name == "AddRange")
+                    {
+                        info.Invoke(request, args);
+                        break;
+                    }
+                }
+            }
+            catch(Exception ex)
+            {
+                LogHelper.logerror.Error(ex);
+            }
+        }
+    }
+
+    
 }

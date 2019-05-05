@@ -1,0 +1,87 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-25 22:09:41,438                                   
+【线程编号】[8]                                   
+【执行时间】[5113]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】178                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Core.EntityCommandExecutionException: An error occurred while executing the command definition. See the inner exception for details. ---> System.Data.SQLite.SQLiteException: SQL logic error
+no such column: Extent1.IsDeleted
+   在 System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   在 System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   在 System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   在 System.Data.SQLite.SQLiteDataReader.NextResult()
+   在 System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.SQLite.SQLiteCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<>c__DisplayClassb.<Reader>b__8()
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TInterceptionContext,TResult](Func`1 operation, TInterceptionContext interceptionContext, Action`1 executing, Action`1 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Internal.InterceptableDbCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   在 System.Data.Common.DbCommand.ExecuteReader(CommandBehavior behavior)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass3.<GetResults>b__2()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass3.<GetResults>b__1()
+   在 System.Data.Entity.Infrastructure.DefaultExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Lazy`1.CreateValue()
+   在 System.Lazy`1.LazyInitValue()
+   在 System.Lazy`1.get_Value()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 82                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-25 23:20:20,784                                   
+【线程编号】[9]                                   
+【执行时间】[108414]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs                                   
+【出错行号】78                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 FlashDownLoad.NewTaskForm.btnDownLoad_Click(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs:行号 69                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-25 23:21:41,022                                   
+【线程编号】[8]                                   
+【执行时间】[2767]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】177                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Finish() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 28
+   在 UserComponents.DownLoadService.DownLoadService.FinishTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 220
+   在 FlashDownLoad.DownLoadForm.FinishTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 557
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 166                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-25 23:22:46,813                                   
+【线程编号】[8]                                   
+【执行时间】[25838]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】177                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Finish() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 28
+   在 UserComponents.DownLoadService.DownLoadService.FinishTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 220
+   在 FlashDownLoad.DownLoadForm.FinishTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 557
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 166                                   
+【错误详情】

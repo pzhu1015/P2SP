@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.loginUserPanel1 = new Complents.ChatComp.LoginUserPanel();
+            this.loginUserPanel1 = new UserComponents.ChatComp.LoginUserPanel();
             this.SuspendLayout();
             // 
             // loginUserPanel1
@@ -61,7 +61,7 @@
 
         #endregion
 
-        private Complents.ChatComp.LoginUserPanel loginUserPanel1;
+        private UserComponents.ChatComp.LoginUserPanel loginUserPanel1;
     }
 }
 

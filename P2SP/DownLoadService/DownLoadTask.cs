@@ -593,7 +593,7 @@ System.Diagnostics.StackFrame sf = st.GetFrame(0);
 	            }
 				if (this.IsFrist)
 				{
-					bool success = DiskHelper.AllocateSpace(this.GetTmpFileName(), this.Length);
+                    bool success = false;// DiskHelper.AllocateSpace(this.GetTmpFileName(), this.Length);
 					if (!success)
 					{
 						this.Fail();

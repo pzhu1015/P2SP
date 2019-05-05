@@ -1,0 +1,178 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:01:21,355                                   
+【线程编号】[11]                                   
+【执行时间】[3068]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:01:21,397                                   
+【线程编号】[8]                                   
+【执行时间】[3110]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:03:51,874                                   
+【线程编号】[11]                                   
+【执行时间】[3080]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:03:51,915                                   
+【线程编号】[8]                                   
+【执行时间】[3120]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:06:56,888                                   
+【线程编号】[11]                                   
+【执行时间】[3203]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:06:56,929                                   
+【线程编号】[8]                                   
+【执行时间】[3244]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:07:28,407                                   
+【线程编号】[15]                                   
+【执行时间】[34722]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】181                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.ObjectDisposedException: 无法访问已关闭的文件。
+   在 System.IO.__Error.FileNotOpen()
+   在 System.IO.FileStream.Seek(Int64 offset, SeekOrigin origin)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.StartOneThread(Object state) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 160                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:07:29,521                                   
+【线程编号】[18]                                   
+【执行时间】[35836]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】181                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.ObjectDisposedException: 无法访问已关闭的文件。
+   在 System.IO.__Error.FileNotOpen()
+   在 System.IO.FileStream.Seek(Int64 offset, SeekOrigin origin)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.StartOneThread(Object state) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 160                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:13:03,018                                   
+【线程编号】[11]                                   
+【执行时间】[2756]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:13:03,058                                   
+【线程编号】[8]                                   
+【执行时间】[2796]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:18:39,709                                   
+【线程编号】[11]                                   
+【执行时间】[3600]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-09-05 22:18:39,747                                   
+【线程编号】[8]                                   
+【执行时间】[3638]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】377                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 359                                   
+【错误详情】

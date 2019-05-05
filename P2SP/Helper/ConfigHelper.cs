@@ -10,6 +10,11 @@ namespace Helper
     {
         private static Configuration appConfig = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
 
+        public static Configuration LoadConfig()
+        {
+            appConfig = ConfigurationManager.OpenExeConfiguration(ConfigurationUserLevel.None);
+            return appConfig;
+        }
 
         public static void SaveConfig()
         {
@@ -29,7 +34,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
                 return false;
             }
         }
@@ -47,7 +52,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
                 return i;
             }
         }
@@ -65,7 +70,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
                 return d;
             }
         }
@@ -83,7 +88,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
                 return s;
             }
         }
@@ -101,7 +106,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
                 return "";
             }
         }
@@ -114,7 +119,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
             }
             finally
             {
@@ -130,7 +135,7 @@ namespace Helper
             }
             catch (Exception ex)
             {
-                LogHelper.Error(ex);
+                LogHelper.logerror.Error(ex);
             }
             finally
             {

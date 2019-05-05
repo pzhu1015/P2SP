@@ -1,0 +1,10 @@
+E:\pzh\CSharpSource\P2SP\Tetris\bin\Debug\Tetris.exe.config
+E:\pzh\CSharpSource\P2SP\Tetris\bin\Debug\Tetris.exe
+E:\pzh\CSharpSource\P2SP\Tetris\bin\Debug\Tetris.pdb
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.csprojResolveAssemblyReference.cache
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.ConfigFrom.resources
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.MainForm.resources
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.Properties.Resources.resources
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.csproj.GenerateResource.Cache
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.exe
+E:\pzh\CSharpSource\P2SP\Tetris\obj\Debug\Tetris.pdb

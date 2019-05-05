@@ -16,7 +16,7 @@ using CCWin.SkinControl;
 using CCWin.SkinClass;
 using Chat;
 using Helper;
-using Complents.ChatComp;
+using UserComponents.ChatComp;
 
 
 namespace ChatClientUI

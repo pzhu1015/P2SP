@@ -1,0 +1,195 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 00:08:26,440                                   
+【线程编号】[15]                                   
+【执行时间】[17518]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】15265310,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 00:08:26,440                                   
+【线程编号】[14]                                   
+【执行时间】[17518]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】5120995,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 00:08:26,440                                   
+【线程编号】[17]                                   
+【执行时间】[17518]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】7239337,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 00:09:08,090                                   
+【线程编号】[7]                                   
+【执行时间】[2977]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】364                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Runtime.Serialization.SerializationException: 正在尝试对空流进行反序列化
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream, HeaderHandler handler, Boolean fCheck, Boolean isCrossAppDomain, IMethodCallMessage methodCallMessage)
+   在 System.Runtime.Serialization.Formatters.Binary.BinaryFormatter.Deserialize(Stream serializationStream)
+   在 Helper.BufferHelper.Deserialize(Byte[] datas, Int32 index) 位置 E:\pzh\CSharpSource\P2SP\Helper\BufferHelper.cs:行号 40
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 354                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 00:09:33,100                                   
+【线程编号】[10]                                   
+【执行时间】[27987]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】119                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.AsyncStart() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 98                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 00:09:48,639                                   
+【线程编号】[9]                                   
+【执行时间】[3072]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 459
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 20:59:14,506                                   
+【线程编号】[10]                                   
+【执行时间】[6032]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 459
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 21:00:15,987                                   
+【线程编号】[8]                                   
+【执行时间】[3417]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 459
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 21:02:10,232                                   
+【线程编号】[8]                                   
+【执行时间】[3449]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 459
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 21:02:31,703                                   
+【线程编号】[10]                                   
+【执行时间】[3298]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 459
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 21:04:23,727                                   
+【线程编号】[8]                                   
+【执行时间】[3365]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 459
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 23:19:08,574                                   
+【线程编号】[9]                                   
+【执行时间】[3760]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 579
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 23:19:28,632                                   
+【线程编号】[9]                                   
+【执行时间】[3266]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 579
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-20 23:20:22,478                                   
+【线程编号】[9]                                   
+【执行时间】[3294]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】185                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NotImplementedException: 未实现该方法或操作。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Fail() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 23
+   在 UserComponents.DownLoadService.DownLoadService.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadService.cs:行号 211
+   在 FlashDownLoad.DownLoadForm.FailTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 579
+   在 FlashDownLoad.DownLoadForm.DownLoadForm_Load(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 134                                   
+【错误详情】

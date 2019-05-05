@@ -32,7 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.notifyIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.menuStripId = new CCWin.SkinControl.SkinContextMenuStrip();
-            this.loginUserPanel = new Complents.ChatComp.LoginUserPanel();
+            this.loginUserPanel = new UserComponents.ChatComp.LoginUserPanel();
             this.SuspendLayout();
             // 
             // notifyIcon
@@ -81,7 +81,7 @@
             this.loginUserPanel.Name = "loginUserPanel";
             this.loginUserPanel.Size = new System.Drawing.Size(430, 200);
             this.loginUserPanel.TabIndex = 1;
-            this.loginUserPanel.RegistClick += new Complents.ChatComp.RegistClickEventHandler(this.loginUserPanel_RegistClick);
+            this.loginUserPanel.RegistClick += new UserComponents.ChatComp.RegistClickEventHandler(this.loginUserPanel_RegistClick);
             this.loginUserPanel.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MouseDown_MoveForm);
             // 
             // LoginForm
@@ -122,6 +122,6 @@
         #endregion
         private System.Windows.Forms.NotifyIcon notifyIcon;
         private CCWin.SkinControl.SkinContextMenuStrip menuStripId;
-        private Complents.ChatComp.LoginUserPanel loginUserPanel;
+        private UserComponents.ChatComp.LoginUserPanel loginUserPanel;
     }
 }

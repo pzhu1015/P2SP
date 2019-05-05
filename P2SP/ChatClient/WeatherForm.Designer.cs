@@ -32,7 +32,7 @@
             this.skinToolStrip1 = new CCWin.SkinControl.SkinToolStrip();
             this.skinToolStrip2 = new CCWin.SkinControl.SkinToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.weatherUserControl = new Complents.ChatComp.WeatherUserControl();
+            this.weatherUserControl = new UserComponents.ChatComp.WeatherUserControl();
             this.skinToolStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -183,7 +183,7 @@
 
         #endregion
 
-        private Complents.ChatComp.WeatherUserControl weatherUserControl;
+        private UserComponents.ChatComp.WeatherUserControl weatherUserControl;
         private CCWin.SkinControl.SkinToolStrip skinToolStrip1;
         private CCWin.SkinControl.SkinToolStrip skinToolStrip2;
         private System.Windows.Forms.ToolStripButton toolStripButton1;

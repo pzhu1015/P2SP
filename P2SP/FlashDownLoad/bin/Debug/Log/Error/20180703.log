@@ -1,0 +1,150 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:44:00,658                                   
+【线程编号】[10]                                   
+【执行时间】[25585]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs                                   
+【出错行号】49                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.DirectoryNotFoundException: 未能找到路径“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn.zip.fd”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Helper.DiskHelper.AllocateSpace(String filename, Int64 length) 位置 E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs:行号 43                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:44:00,694                                   
+【线程编号】[10]                                   
+【执行时间】[25620]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】350                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.CreateFileAndMetaData() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 339                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:47:47,941                                   
+【线程编号】[11]                                   
+【执行时间】[41876]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs                                   
+【出错行号】49                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.DirectoryNotFoundException: 未能找到路径“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn.zip.fd”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Helper.DiskHelper.AllocateSpace(String filename, Int64 length) 位置 E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs:行号 43                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:48:41,967                                   
+【线程编号】[8]                                   
+【执行时间】[8090]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs                                   
+【出错行号】49                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.DirectoryNotFoundException: 未能找到路径“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn.zip.fd”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Helper.DiskHelper.AllocateSpace(String filename, Int64 length) 位置 E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs:行号 43                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:48:42,012                                   
+【线程编号】[8]                                   
+【执行时间】[8135]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】350                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.CreateFileAndMetaData() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 339                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:48:43,415                                   
+【线程编号】[11]                                   
+【执行时间】[9539]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs                                   
+【出错行号】49                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.DirectoryNotFoundException: 未能找到路径“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn.zip.fd”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Helper.DiskHelper.AllocateSpace(String filename, Int64 length) 位置 E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs:行号 43                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:48:43,422                                   
+【线程编号】[11]                                   
+【执行时间】[9545]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】350                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.CreateFileAndMetaData() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 339                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:50:31,405                                   
+【线程编号】[17]                                   
+【执行时间】[61548]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs                                   
+【出错行号】49                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(1).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Helper.DiskHelper.AllocateSpace(String filename, Int64 length) 位置 E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs:行号 43                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:50:31,428                                   
+【线程编号】[17]                                   
+【执行时间】[61571]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】350                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.CreateFileAndMetaData() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 339                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:50:41,793                                   
+【线程编号】[21]                                   
+【执行时间】[71936]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs                                   
+【出错行号】803                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 FlashDownLoad.DownLoadForm.Task_TaskStart(Object sender, TaskStartEventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 796                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-07-03 22:50:41,800                                   
+【线程编号】[21]                                   
+【执行时间】[71943]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】127                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.AsyncStart() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 106                                   
+【错误详情】

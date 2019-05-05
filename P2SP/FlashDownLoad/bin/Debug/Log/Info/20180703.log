@@ -1,0 +1,156 @@
+[2018-07-03 22:49:54,700] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 445612
+[2018-07-03 22:49:54,719] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 445612-445612
+[2018-07-03 22:49:55,719] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 870412
+[2018-07-03 22:49:55,722] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 870412-870412
+[2018-07-03 22:49:56,719] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 1270732
+[2018-07-03 22:49:56,722] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1270732-1270732
+[2018-07-03 22:49:57,720] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 1630732
+[2018-07-03 22:49:57,723] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1630732-1630732
+[2018-07-03 22:49:58,721] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 2062962
+[2018-07-03 22:49:58,722] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2062962-2062962
+[2018-07-03 22:49:59,722] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 2486322
+[2018-07-03 22:49:59,725] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2486322-2486322
+[2018-07-03 22:50:00,723] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 2856402
+[2018-07-03 22:50:00,725] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2856402-2856402
+[2018-07-03 22:50:01,724] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 3305682
+[2018-07-03 22:50:01,725] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3305682-3305682
+[2018-07-03 22:50:02,725] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 3752082
+[2018-07-03 22:50:02,726] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3752082-3752082
+[2018-07-03 22:50:03,785] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 4143762
+[2018-07-03 22:50:03,786] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4143762-4143762
+[2018-07-03 22:50:04,786] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 4578642
+[2018-07-03 22:50:04,787] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4578642-4578642
+[2018-07-03 22:50:05,787] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 4976111
+[2018-07-03 22:50:05,788] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4976111-4976111
+[2018-07-03 22:50:06,790] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 5378191
+[2018-07-03 22:50:06,791] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5378191-5378191
+[2018-07-03 22:50:07,791] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 5777391
+[2018-07-03 22:50:07,792] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5777391-5777391
+[2018-07-03 22:50:08,792] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 6156431
+[2018-07-03 22:50:08,793] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 6156431-6156431
+[2018-07-03 22:50:09,793] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 6578671
+[2018-07-03 22:50:09,794] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 6578671-6578671
+[2018-07-03 22:50:10,796] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 7079101
+[2018-07-03 22:50:10,797] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 7079101-7079101
+[2018-07-03 22:50:11,798] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 7515421
+[2018-07-03 22:50:11,799] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 7515421-7515421
+[2018-07-03 22:50:12,799] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 7945981
+[2018-07-03 22:50:12,800] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 7945981-7945981
+[2018-07-03 22:50:13,799] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 8375101
+[2018-07-03 22:50:13,800] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 8375101-8375101
+[2018-07-03 22:50:14,800] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 8745181
+[2018-07-03 22:50:14,801] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 8745181-8745181
+[2018-07-03 22:50:15,801] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 9135421
+[2018-07-03 22:50:15,803] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 9135421-9135421
+[2018-07-03 22:50:16,803] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 9529981
+[2018-07-03 22:50:16,804] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 9529981-9529981
+[2018-07-03 22:50:17,803] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 9927421
+[2018-07-03 22:50:17,804] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 9927421-9927421
+[2018-07-03 22:50:18,804] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 10339261
+[2018-07-03 22:50:18,806] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 10339261-10339261
+[2018-07-03 22:50:19,807] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 10749661
+[2018-07-03 22:50:19,809] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 10749661-10749661
+[2018-07-03 22:50:20,808] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 11157181
+[2018-07-03 22:50:20,810] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 11157181-11157181
+[2018-07-03 22:50:21,809] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 11564701
+[2018-07-03 22:50:21,810] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 11564701-11564701
+[2018-07-03 22:50:22,809] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 11973661
+[2018-07-03 22:50:22,810] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 11973661-11973661
+[2018-07-03 22:50:23,810] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 12394141
+[2018-07-03 22:50:23,811] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 12394141-12394141
+[2018-07-03 22:50:24,811] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 12816061
+[2018-07-03 22:50:24,812] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 12816061-12816061
+[2018-07-03 22:50:25,812] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 13279741
+[2018-07-03 22:50:25,813] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 13279741-13279741
+[2018-07-03 22:50:31,099] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 13437348
+[2018-07-03 22:50:31,105] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 13437348-13437348
+[2018-07-03 22:50:32,102] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 14582646
+[2018-07-03 22:50:32,108] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 14582646-14582646
+[2018-07-03 22:50:32,542] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 189690
+[2018-07-03 22:50:32,546] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 189690-189690
+[2018-07-03 22:50:33,103] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 14707926
+[2018-07-03 22:50:33,107] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 14707926-14707926
+[2018-07-03 22:50:33,543] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 408570
+[2018-07-03 22:50:33,544] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 408570-408570
+[2018-07-03 22:50:34,104] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 14957046
+[2018-07-03 22:50:34,109] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 14957046-14957046
+[2018-07-03 22:50:34,544] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 601530
+[2018-07-03 22:50:34,545] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 601530-601530
+[2018-07-03 22:50:35,106] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 15209046
+[2018-07-03 22:50:35,109] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 15209046-15209046
+[2018-07-03 22:50:35,545] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 818970
+[2018-07-03 22:50:35,546] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 818970-818970
+[2018-07-03 22:50:36,108] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 15335766
+[2018-07-03 22:50:36,109] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 15335766-15335766
+[2018-07-03 22:50:36,546] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 1036410
+[2018-07-03 22:50:36,548] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1036410-1036410
+[2018-07-03 22:50:37,108] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 15587766
+[2018-07-03 22:50:37,109] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 15587766-15587766
+[2018-07-03 22:50:37,546] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 1227930
+[2018-07-03 22:50:37,548] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1227930-1227930
+[2018-07-03 22:50:38,109] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 15783606
+[2018-07-03 22:50:38,111] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 15783606-15783606
+[2018-07-03 22:50:38,547] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 1443930
+[2018-07-03 22:50:38,550] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1443930-1443930
+[2018-07-03 22:50:39,110] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 15966486
+[2018-07-03 22:50:39,111] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 15966486-15966486
+[2018-07-03 22:50:39,550] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 1638330
+[2018-07-03 22:50:39,551] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1638330-1638330
+[2018-07-03 22:50:40,111] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 16217046
+[2018-07-03 22:50:40,113] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 16217046-16217046
+[2018-07-03 22:50:40,551] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 1842810
+[2018-07-03 22:50:40,553] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 1842810-1842810
+[2018-07-03 22:50:41,111] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 16362486
+[2018-07-03 22:50:41,112] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 16362486-16362486
+[2018-07-03 22:50:41,552] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 2047290
+[2018-07-03 22:50:41,552] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2047290-2047290
+[2018-07-03 22:50:42,112] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 16595766
+[2018-07-03 22:50:42,113] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 16595766-16595766
+[2018-07-03 22:50:42,553] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 2250330
+[2018-07-03 22:50:42,553] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2250330-2250330
+[2018-07-03 22:50:43,113] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:13][INFO] : 16875332, downloadSize: 16849206
+[2018-07-03 22:50:43,118] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 16849206-16849206
+[2018-07-03 22:50:43,554] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 2456250
+[2018-07-03 22:50:43,555] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2456250-2456250
+[2018-07-03 22:50:44,555] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 2662170
+[2018-07-03 22:50:44,556] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2662170-2662170
+[2018-07-03 22:50:45,556] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 2863770
+[2018-07-03 22:50:45,557] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 2863770-2863770
+[2018-07-03 22:50:46,557] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 3069690
+[2018-07-03 22:50:46,558] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3069690-3069690
+[2018-07-03 22:50:47,558] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 3275610
+[2018-07-03 22:50:47,559] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3275610-3275610
+[2018-07-03 22:50:48,559] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 3486991
+[2018-07-03 22:50:48,560] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3486991-3486991
+[2018-07-03 22:50:49,560] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 3707311
+[2018-07-03 22:50:49,561] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3707311-3707311
+[2018-07-03 22:50:50,561] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 3924751
+[2018-07-03 22:50:50,562] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 3924751-3924751
+[2018-07-03 22:50:51,561] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 4122031
+[2018-07-03 22:50:51,563] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4122031-4122031
+[2018-07-03 22:50:52,563] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 4307791
+[2018-07-03 22:50:52,564] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4307791-4307791
+[2018-07-03 22:50:53,563] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 4538191
+[2018-07-03 22:50:53,564] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4538191-4538191
+[2018-07-03 22:50:54,564] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 4718191
+[2018-07-03 22:50:54,565] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4718191-4718191
+[2018-07-03 22:50:55,565] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 4954351
+[2018-07-03 22:50:55,566] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 4954351-4954351
+[2018-07-03 22:50:56,566] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 5119951
+[2018-07-03 22:50:56,569] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5119951-5119951
+[2018-07-03 22:50:57,567] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 5369071
+[2018-07-03 22:50:57,569] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5369071-5369071
+[2018-07-03 22:50:58,569] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 5536111
+[2018-07-03 22:50:58,570] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5536111-5536111
+[2018-07-03 22:50:59,569] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 5780911
+[2018-07-03 22:50:59,570] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5780911-5780911
+[2018-07-03 22:51:00,571] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 5953711
+[2018-07-03 22:51:00,572] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 5953711-5953711
+[2018-07-03 22:51:01,571] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 6172591
+[2018-07-03 22:51:01,572] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 6172591-6172591
+[2018-07-03 22:51:02,572] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 6371311
+[2018-07-03 22:51:02,573] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 6371311-6371311
+[2018-07-03 22:51:03,573] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 6608911
+[2018-07-03 22:51:03,574] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 6608911-6608911
+[2018-07-03 22:51:04,574] [E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:88:19][INFO] : 16875332, downloadSize: 6741391
+[2018-07-03 22:51:04,576] [E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:684:9][INFO] : 6741391-6741391

@@ -8,9 +8,9 @@ using System.Resources;
 
 using Helper;
 
-namespace ExtendControl 
+namespace ExtendControl
 {
-    
+
     public class EXListView : ListView {
         private int _sortcol; //index of clicked ColumnHeader
         private Brush _sortcolbrush; //color of items in sorted column

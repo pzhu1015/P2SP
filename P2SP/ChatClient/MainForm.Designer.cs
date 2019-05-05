@@ -42,7 +42,7 @@
             this.退出EToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainerHeadList = new System.Windows.Forms.SplitContainer();
             this.splitContainerLeftHead = new System.Windows.Forms.SplitContainer();
-            this.userHeaderControl1 = new Complents.ChatComp.UserHeaderControl();
+            this.userHeaderControl1 = new UserComponents.ChatComp.UserHeaderControl();
             this.splitContainerRightWeather = new System.Windows.Forms.SplitContainer();
             this.skinToolStrip4 = new CCWin.SkinControl.SkinToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
@@ -716,7 +716,7 @@
         private System.Windows.Forms.ToolStripMenuItem 修改密码ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 软件升级ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 帮助ToolStripMenuItem;
-        private Complents.ChatComp.UserHeaderControl userHeaderControl1;
+        private UserComponents.ChatComp.UserHeaderControl userHeaderControl1;
         private System.Windows.Forms.SplitContainer splitContainerLeftHead;
         private System.Windows.Forms.SplitContainer splitContainerRightWeather;
         private CCWin.SkinControl.SkinToolStrip skinToolStrip2;

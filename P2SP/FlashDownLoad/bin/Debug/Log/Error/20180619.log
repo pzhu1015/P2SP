@@ -1,0 +1,454 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:35,782                                   
+【线程编号】[19]                                   
+【执行时间】[18039]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】13500268,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:35,782                                   
+【线程编号】[16]                                   
+【执行时间】[18039]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】3375067,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:35,783                                   
+【线程编号】[17]                                   
+【执行时间】[18040]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】0,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:35,783                                   
+【线程编号】[20]                                   
+【执行时间】[18040]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】10125201,13500267                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:35,783                                   
+【线程编号】[18]                                   
+【执行时间】[18040]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】6750134,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:45,883                                   
+【线程编号】[14]                                   
+【执行时间】[28140]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】0,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:45,883                                   
+【线程编号】[20]                                   
+【执行时间】[28140]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】6750134,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:45,890                                   
+【线程编号】[16]                                   
+【执行时间】[28147]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】4392480,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:45,890                                   
+【线程编号】[19]                                   
+【执行时间】[28147]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】14514846,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:29:45,891                                   
+【线程编号】[17]                                   
+【执行时间】[28148]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】10125201,13500267                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:24,445                                   
+【线程编号】[24]                                   
+【执行时间】[66702]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】447226,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:24,446                                   
+【线程编号】[23]                                   
+【执行时间】[66703]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】4392480,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:24,470                                   
+【线程编号】[26]                                   
+【执行时间】[66727]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】14514846,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:24,448                                   
+【线程编号】[25]                                   
+【执行时间】[66705]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】7246313,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:24,448                                   
+【线程编号】[27]                                   
+【执行时间】[66705]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】10125201,13500267                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:34,312                                   
+【线程编号】[22]                                   
+【执行时间】[76568]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】0,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:34,313                                   
+【线程编号】[24]                                   
+【执行时间】[76569]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】3375067,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:34,314                                   
+【线程编号】[27]                                   
+【执行时间】[76571]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】13500268,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:34,321                                   
+【线程编号】[23]                                   
+【执行时间】[76578]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】6750134,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:30:34,323                                   
+【线程编号】[25]                                   
+【执行时间】[76580]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】10125201,13500267                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:32:38,095                                   
+【线程编号】[8]                                   
+【执行时间】[3056]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】364                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 348                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:34:05,456                                   
+【线程编号】[8]                                   
+【执行时间】[3105]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】364                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 348                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:34:05,816                                   
+【线程编号】[8]                                   
+【执行时间】[3464]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】364                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.GetInfoFromMeta() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 348                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:49,245                                   
+【线程编号】[15]                                   
+【执行时间】[16038]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】1669167,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:49,247                                   
+【线程编号】[14]                                   
+【执行时间】[16040]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】5614420,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:49,246                                   
+【线程编号】[17]                                   
+【执行时间】[16039]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】10125201,13500267                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:49,245                                   
+【线程编号】[16]                                   
+【执行时间】[16038]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】7246313,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:49,253                                   
+【线程编号】[18]                                   
+【执行时间】[16046]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】14514846,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:56,486                                   
+【线程编号】[20]                                   
+【执行时间】[23279]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】836250,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:57,489                                   
+【线程编号】[21]                                   
+【执行时间】[24282]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】4169551,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:58,488                                   
+【线程编号】[22]                                   
+【执行时间】[25280]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】6750134,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:47:59,489                                   
+【线程编号】[23]                                   
+【执行时间】[26282]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】10125201,13500267                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:48:00,488                                   
+【线程编号】[24]                                   
+【执行时间】[27281]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】13500268,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:48:21,293                                   
+【线程编号】[12]                                   
+【执行时间】[48086]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】1883107,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:48:21,294                                   
+【线程编号】[18]                                   
+【执行时间】[48087]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】16351664,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:52:04,577                                   
+【线程编号】[18]                                   
+【执行时间】[21038]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】16351664,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:52:04,577                                   
+【线程编号】[15]                                   
+【执行时间】[21038]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】1883107,3375066                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:52:08,528                                   
+【线程编号】[17]                                   
+【执行时间】[24989]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】6750134,10125200                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:52:08,530                                   
+【线程编号】[18]                                   
+【执行时间】[24991]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】5120995,6750133                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:52:09,111                                   
+【线程编号】[20]                                   
+【执行时间】[25572]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】15265310,16875331                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-19 23:52:35,630                                   
+【线程编号】[15]                                   
+【执行时间】[20263]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】137                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】3236800,3375066                                   
+【错误详情】

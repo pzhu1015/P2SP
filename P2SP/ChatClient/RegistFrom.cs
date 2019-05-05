@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 using CCWin;
 using Helper;
-using Complents;
-using Complents.P2SPService;
-using Complents.P2SPService.Msgs;
+using UserComponents;
+using UserComponents.P2SPService;
+using UserComponents.P2SPService.Msgs;
 using System.Net;
 
 namespace ChatClient

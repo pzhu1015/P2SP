@@ -1,0 +1,115 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:39:59,098                                   
+【线程编号】[7]                                   
+【执行时间】[16924]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs                                   
+【出错行号】79                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 FlashDownLoad.NewTaskForm.btnDownLoad_Click(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs:行号 70                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:40:12,713                                   
+【线程编号】[7]                                   
+【执行时间】[30540]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs                                   
+【出错行号】79                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 FlashDownLoad.NewTaskForm.btnDownLoad_Click(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs:行号 70                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:41:29,011                                   
+【线程编号】[7]                                   
+【执行时间】[106837]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs                                   
+【出错行号】79                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 FlashDownLoad.NewTaskForm.btnDownLoad_Click(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs:行号 70                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:42:46,530                                   
+【线程编号】[9]                                   
+【执行时间】[23612]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs                                   
+【出错行号】79                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.DivideByZeroException: 尝试除以零。
+   在 FlashDownLoad.DownLoadForm.AddDownLoadTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 629
+   在 FlashDownLoad.NewTaskForm.btnDownLoad_Click(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs:行号 73                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:45:27,306                                   
+【线程编号】[9]                                   
+【执行时间】[22413]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs                                   
+【出错行号】79                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.DivideByZeroException: 尝试除以零。
+   在 FlashDownLoad.DownLoadForm.AddDownLoadTask(DownLoadTask task) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 629
+   在 FlashDownLoad.NewTaskForm.btnDownLoad_Click(Object sender, EventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\NewTaskForm.cs:行号 73                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:47:54,804                                   
+【线程编号】[14]                                   
+【执行时间】[17549]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】43                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   在 System.Data.Entity.DbContext.SaveChanges()
+   在 FlashDownLoad.DownLoadForm.Task_TaskStart(Object sender, TaskStartEventArgs e) 位置 E:\pzh\CSharpSource\P2SP\FlashDownLoad\DownLoadForm.cs:行号 764
+   在 UserComponents.DownLoadService.DownLoadTask.OnTaskStart(TaskStartEventArgs e) 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\DownLoadTask.cs:行号 575
+   在 UserComponents.DownLoadService.HttpDownLoadTask.Start() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 35                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:58:11,967                                   
+【线程编号】[22]                                   
+【执行时间】[80702]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs                                   
+【出错行号】49                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.IO.IOException: 文件“E:\Desktop\FDownLoad\navicatforsqlite_pcsoft.com.cn(2).zip.fd”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   在 System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access)
+   在 Helper.DiskHelper.AllocateSpace(String filename, Int64 length) 位置 E:\pzh\CSharpSource\P2SP\Helper\DiskHelper.cs:行号 43                                   
+【错误详情】
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】ERROR                                   
+【记录时间】2018-06-26 23:58:11,987                                   
+【线程编号】[22]                                   
+【执行时间】[80722]毫秒                                   
+【出错文件】E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs                                   
+【出错行号】342                                   
+【出错的类】logerror 属性[(null)]                                   
+【错误描述】System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 UserComponents.DownLoadService.HttpDownLoadTask.CreateFileAndMetaData() 位置 E:\pzh\CSharpSource\P2SP\UserComponents\DownLoadService\HttpDownLoadTask.cs:行号 331                                   
+【错误详情】

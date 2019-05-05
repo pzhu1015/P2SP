@@ -26,62 +26,63 @@ namespace Helper
 	{
         public static readonly ILog loginfo = log4net.LogManager.GetLogger("loginfo");
 
-        public static readonly log4net.ILog logdebug = log4net.LogManager.GetLogger("logdebug");
+        public static readonly ILog logdebug = log4net.LogManager.GetLogger("logdebug");
 
-        public static readonly log4net.ILog logwarn = log4net.LogManager.GetLogger("logwarn");
+        public static readonly ILog logwarn = log4net.LogManager.GetLogger("logwarn");
 
-        public static readonly log4net.ILog logerror = log4net.LogManager.GetLogger("logerror");
+        public static readonly ILog logerror = log4net.LogManager.GetLogger("logerror");
 
-        public static readonly log4net.ILog logfatal = log4net.LogManager.GetLogger("logfatal");
+        public static readonly ILog logfatal = log4net.LogManager.GetLogger("logfatal");
 
-        public static void Info(Object message)
-		{
-            loginfo.Info(message);
-		}
+
+  //      public static void Info(Object message)
+		//{
+  //          loginfo.Info(message);
+		//}
 		
-		public static void Info(Object message, Exception exception)
-		{
-            loginfo.Info(message, exception);
-		}
+		//public static void Info(Object message, Exception exception)
+		//{
+  //          loginfo.Info(message, exception);
+		//}
 		
-		public static void Debug(Object message)
-		{
-            logdebug.Debug(message);
-		}
+		//public static void Debug(Object message)
+		//{
+  //          logdebug.Debug(message);
+		//}
 		
-		public static void Debug(Object message, Exception exception)
-		{
-            logdebug.Debug(message, exception);
-		}
+		//public static void Debug(Object message, Exception exception)
+		//{
+  //          logdebug.Debug(message, exception);
+		//}
 		
-		public static void Warning(Object message)
-		{
-            logwarn.Warn(message);
-		}
+		//public static void Warning(Object message)
+		//{
+  //          logwarn.Warn(message);
+		//}
 		
-		public static void Warning(Object message, Exception exception)
-		{
-            logwarn.Warn(message, exception);
-		}
+		//public static void Warning(Object message, Exception exception)
+		//{
+  //          logwarn.Warn(message, exception);
+		//}
 		
-		public static void Error(Object message)
-		{
-            logerror.Error(message);
-		}
+		//public static void Error(Object message)
+		//{
+  //          logerror.Error(message);
+		//}
 		
-		public static void Error(Object message, Exception exception)
-		{
-            logerror.Error(message, exception);
-		}
+		//public static void Error(Object message, Exception exception)
+		//{
+  //          logerror.Error(message, exception);
+		//}
 		
-		public static void Fatal(Object message)
-		{
-            logfatal.Fatal(message);
-		}
+		//public static void Fatal(Object message)
+		//{
+  //          logfatal.Fatal(message);
+		//}
 		
-		public static void Fatal(Object message, Exception exception)
-		{
-            logfatal.Fatal(message, exception);
-		}
+		//public static void Fatal(Object message, Exception exception)
+		//{
+  //          logfatal.Fatal(message, exception);
+		//}
 	}
 }

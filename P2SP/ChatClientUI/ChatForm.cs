@@ -23,8 +23,8 @@ using Chat;
 using ChatTrans;
 using Trans;
 
-using Complents;
-using Complents.ChatComp;
+using UserComponents;
+using UserComponents.ChatComp;
 using AudioService;
 
 namespace ChatClientUI

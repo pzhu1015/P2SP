@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 
 using CCWin;
 using CCWin.SkinControl;
-using Complents.ChatComp;
+using UserComponents.ChatComp;
 using Helper;
 using System.Diagnostics;
 

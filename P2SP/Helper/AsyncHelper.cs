@@ -16,6 +16,8 @@ namespace Helper
 	public class AsyncHelper
 	{
 		public delegate void AsyncHandler();
+
+        public delegate void AsyncHandlerArgs(object args);
 		public AsyncHelper()
 		{
 		}

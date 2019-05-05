@@ -22,7 +22,7 @@ using SendFileService;
 using Chat;
 using Trans;
 using ChatTrans;
-using Complents.ChatComp;
+using UserComponents.ChatComp;
 using Weather;
 using P2PService;
 

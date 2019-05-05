@@ -105,11 +105,14 @@ namespace ChatClientUI
             this.tsmiEnter = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiCtrlEnter = new System.Windows.Forms.ToolStripMenuItem();
             this.skToolMenuTop.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerMain)).BeginInit();
             this.splitContainerMain.Panel1.SuspendLayout();
             this.splitContainerMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
             this.splitContainer3.Panel1.SuspendLayout();
             this.splitContainer3.Panel2.SuspendLayout();
             this.splitContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
             this.splitContainer4.Panel1.SuspendLayout();
             this.splitContainer4.Panel2.SuspendLayout();
             this.splitContainer4.SuspendLayout();
@@ -312,7 +315,7 @@ namespace ChatClientUI
             // 
             this.splitContainerMain.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(195)))), ((int)(((byte)(220)))), ((int)(((byte)(237)))));
             this.splitContainerMain.Size = new System.Drawing.Size(553, 418);
-            this.splitContainerMain.SplitterDistance = 399;
+            this.splitContainerMain.SplitterDistance = 402;
             this.splitContainerMain.SplitterWidth = 1;
             this.splitContainerMain.TabIndex = 135;
             // 
@@ -322,7 +325,7 @@ namespace ChatClientUI
             this.splitBtn.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.splitBtn.Dock = System.Windows.Forms.DockStyle.Right;
             this.splitBtn.DownBack = null;
-            this.splitBtn.Location = new System.Drawing.Point(395, 0);
+            this.splitBtn.Location = new System.Drawing.Point(398, 0);
             this.splitBtn.MouseBack = null;
             this.splitBtn.Name = "splitBtn";
             this.splitBtn.NormlBack = null;
@@ -353,7 +356,7 @@ namespace ChatClientUI
             this.splitContainer3.Panel2.Controls.Add(this.btnShortKeyDropDown);
             this.splitContainer3.Panel2.Controls.Add(this.btnClose);
             this.splitContainer3.Panel2MinSize = 40;
-            this.splitContainer3.Size = new System.Drawing.Size(399, 418);
+            this.splitContainer3.Size = new System.Drawing.Size(402, 418);
             this.splitContainer3.SplitterDistance = 377;
             this.splitContainer3.SplitterWidth = 1;
             this.splitContainer3.TabIndex = 0;
@@ -380,7 +383,7 @@ namespace ChatClientUI
             this.splitContainer4.Panel2.Controls.Add(this.txtSend);
             this.splitContainer4.Panel2.Controls.Add(this.skToolMenuMiddle);
             this.splitContainer4.Panel2MinSize = 0;
-            this.splitContainer4.Size = new System.Drawing.Size(399, 377);
+            this.splitContainer4.Size = new System.Drawing.Size(402, 377);
             this.splitContainer4.SplitterDistance = 228;
             this.splitContainer4.SplitterWidth = 1;
             this.splitContainer4.TabIndex = 0;
@@ -393,7 +396,7 @@ namespace ChatClientUI
             this.txtRecve.Location = new System.Drawing.Point(0, 0);
             this.txtRecve.Name = "txtRecve";
             this.txtRecve.ReadOnly = true;
-            this.txtRecve.Size = new System.Drawing.Size(399, 228);
+            this.txtRecve.Size = new System.Drawing.Size(402, 201);
             this.txtRecve.TabIndex = 135;
             this.txtRecve.Text = "";
             this.txtRecve.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
@@ -446,7 +449,7 @@ namespace ChatClientUI
             this.skToolMenuFont.Location = new System.Drawing.Point(0, 201);
             this.skToolMenuFont.Name = "skToolMenuFont";
             this.skToolMenuFont.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.skToolMenuFont.Size = new System.Drawing.Size(460, 27);
+            this.skToolMenuFont.Size = new System.Drawing.Size(402, 27);
             this.skToolMenuFont.TabIndex = 134;
             this.skToolMenuFont.Text = "skinToolStrip1";
             this.skToolMenuFont.TitleAnamorphosis = false;
@@ -518,7 +521,7 @@ namespace ChatClientUI
             this.txtSend.HiglightColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.White;
             this.txtSend.Location = new System.Drawing.Point(0, 27);
             this.txtSend.Name = "txtSend";
-            this.txtSend.Size = new System.Drawing.Size(399, 121);
+            this.txtSend.Size = new System.Drawing.Size(402, 121);
             this.txtSend.TabIndex = 134;
             this.txtSend.Text = "";
             this.txtSend.TextColor = CCWin.SkinControl.RtfRichTextBox.RtfColor.Black;
@@ -572,7 +575,7 @@ namespace ChatClientUI
             this.skToolMenuMiddle.Name = "skToolMenuMiddle";
             this.skToolMenuMiddle.Padding = new System.Windows.Forms.Padding(0);
             this.skToolMenuMiddle.RadiusStyle = CCWin.SkinClass.RoundStyle.All;
-            this.skToolMenuMiddle.Size = new System.Drawing.Size(399, 27);
+            this.skToolMenuMiddle.Size = new System.Drawing.Size(402, 27);
             this.skToolMenuMiddle.TabIndex = 133;
             this.skToolMenuMiddle.Text = "skinToolStrip1";
             this.skToolMenuMiddle.TitleAnamorphosis = false;
@@ -746,7 +749,7 @@ namespace ChatClientUI
             this.btnSend.DownBack = global::ChatClientUI.ResourceControl.btnSend_DownBack;
             this.btnSend.DrawType = CCWin.SkinControl.DrawStyle.Img;
             this.btnSend.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnSend.Location = new System.Drawing.Point(312, 1);
+            this.btnSend.Location = new System.Drawing.Point(315, -2);
             this.btnSend.Margin = new System.Windows.Forms.Padding(0);
             this.btnSend.MouseBack = global::ChatClientUI.ResourceControl.btnSend_MouseBack;
             this.btnSend.Name = "btnSend";
@@ -764,7 +767,7 @@ namespace ChatClientUI
             this.btnShortKeyDropDown.ControlState = CCWin.SkinClass.ControlState.Normal;
             this.btnShortKeyDropDown.DownBack = global::ChatClientUI.ResourceControl.btnShortKeyDropDown_DownBack;
             this.btnShortKeyDropDown.DrawType = CCWin.SkinControl.DrawStyle.Img;
-            this.btnShortKeyDropDown.Location = new System.Drawing.Point(373, 1);
+            this.btnShortKeyDropDown.Location = new System.Drawing.Point(376, -2);
             this.btnShortKeyDropDown.Margin = new System.Windows.Forms.Padding(0);
             this.btnShortKeyDropDown.MouseBack = global::ChatClientUI.ResourceControl.btnShortKeyDropDown_MouseBack;
             this.btnShortKeyDropDown.Name = "btnShortKeyDropDown";
@@ -784,7 +787,7 @@ namespace ChatClientUI
             this.btnClose.DownBack = global::ChatClientUI.ResourceControl.btnDownBack;
             this.btnClose.DrawType = CCWin.SkinControl.DrawStyle.Img;
             this.btnClose.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.btnClose.Location = new System.Drawing.Point(233, 1);
+            this.btnClose.Location = new System.Drawing.Point(236, -2);
             this.btnClose.MouseBack = global::ChatClientUI.ResourceControl.btnMouseBack;
             this.btnClose.Name = "btnClose";
             this.btnClose.NormlBack = global::ChatClientUI.ResourceControl.btnNormlBack;
@@ -1024,12 +1027,15 @@ namespace ChatClientUI
             this.skToolMenuTop.ResumeLayout(false);
             this.skToolMenuTop.PerformLayout();
             this.splitContainerMain.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerMain)).EndInit();
             this.splitContainerMain.ResumeLayout(false);
             this.splitContainer3.Panel1.ResumeLayout(false);
             this.splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
             this.splitContainer3.ResumeLayout(false);
             this.splitContainer4.Panel1.ResumeLayout(false);
             this.splitContainer4.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
             this.splitContainer4.ResumeLayout(false);
             this.skToolMenuFont.ResumeLayout(false);
             this.skToolMenuFont.PerformLayout();

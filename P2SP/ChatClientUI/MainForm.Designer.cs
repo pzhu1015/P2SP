@@ -6,7 +6,7 @@
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
- using Complents;
+ using UserComponents;
 namespace ChatClientUI
 {
 	partial class MainForm
@@ -96,7 +96,7 @@ namespace ChatClientUI
             this.列表显示ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.skpWeather = new CCWin.SkinControl.SkinPanel();
-            this.userHeader = new Complents.ChatComp.UserHeaderControl();
+            this.userHeader = new UserComponents.ChatComp.UserHeaderControl();
             this.skinToolStrip5.SuspendLayout();
             this.skinToolStrip4.SuspendLayout();
             this.tsBottomMenuTwo.SuspendLayout();
@@ -946,7 +946,7 @@ namespace ChatClientUI
             this.ResumeLayout(false);
 
 		}
-		private Complents.ChatComp.UserHeaderControl userHeader;
+		private UserComponents.ChatComp.UserHeaderControl userHeader;
 		private System.Windows.Forms.ToolStripMenuItem tsmiShowMain;
 		private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
 		private System.Windows.Forms.ToolStripMenuItem 离线ToolStripMenuItem2;
